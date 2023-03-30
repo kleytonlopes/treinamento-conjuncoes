@@ -18,14 +18,14 @@
       "sentence": "Eu acordei tarde, mas consegui chegar no trabalho a tempo.",
       "correctAnswer": {
         "conjunction": "mas",
-        "classification": "aditiva"
+        "classification": "adversativa"
       }
     },
     {
       "sentence": "Fui ao supermercado para comprar arroz e feijão.",
       "correctAnswer": {
         "conjunction": "para",
-        "classification": "explicativa"
+        "classification": "finalidade"
       }
     },
     {
@@ -39,7 +39,7 @@
       "sentence": "O filme é longo, mas é muito interessante.",
       "correctAnswer": {
         "conjunction": "mas",
-        "classification": "aditiva"
+        "classification": "adversativa"
       }
     },
     {
@@ -53,7 +53,7 @@
       "sentence": "Não gosto de sopa nem de feijão.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "negativa"
+        "classification": "aditiva"
       }
     },
     {
@@ -81,7 +81,7 @@
       "sentence": "Não gosto de carne nem de frango.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "negativa"
+        "classification": "aditiva"
       }
     },
     {
@@ -95,14 +95,14 @@
       "sentence": "Eu não gosto de praia, mas adoro piscina.",
       "correctAnswer": {
         "conjunction": "mas",
-        "classification": "aditiva"
+        "classification": "adversativa"
       }
     },
     {
       "sentence": "Ela não come carne, nem ovos, nem leite.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "negativa"
+        "classification": "aditiva"
       }
     },
     {
@@ -123,7 +123,7 @@
       "sentence": "Não bebo refrigerante, nem suco artificial.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "adversativa"
+        "classification": "aditiva"
       }
     },
     {
@@ -165,7 +165,7 @@
       "sentence": "Não gosto de café, nem de chá.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "adversativa"
+        "classification": "aditiva"
       }
     },
     {
@@ -207,7 +207,7 @@
       "sentence": "Ele não estuda, nem trabalha.",
       "correctAnswer": {
         "conjunction": "nem",
-        "classification": "adversativa"
+        "classification": "aditiva"
       }
     }
   ]
