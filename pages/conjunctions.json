@@ -1,31 +1,213 @@
 {
   "conjunctions": [
     {
-      "sentence": "Maria comprou uma maçã e uma banana.",
+      "sentence": "Eu trabalho muito, contudo não ganho o suficiente.",
       "correctAnswer": {
-        "conjunction": "e",
-        "classification": "aditiva"
-      }
-    },
-    {
-      "sentence": "Pedro não gosta de estudar, mas gosta de jogar videogame.",
-      "correctAnswer": {
-        "conjunction": "mas",
+        "conjunction": "contudo",
         "classification": "adversativa"
       }
     },
     {
-      "sentence": "Eu gostaria de viajar para a Europa ou para a Ásia.",
+      "sentence": "O carro é novo, porém já apresentou alguns problemas.",
+      "correctAnswer": {
+        "conjunction": "porém",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Eu acordei tarde, mas consegui chegar no trabalho a tempo.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Fui ao supermercado para comprar arroz e feijão.",
+      "correctAnswer": {
+        "conjunction": "para",
+        "classification": "explicativa"
+      }
+    },
+    {
+      "sentence": "Você pode estudar em casa ou na biblioteca.",
       "correctAnswer": {
         "conjunction": "ou",
         "classification": "alternativa"
       }
     },
     {
-      "sentence": "João estudou muito, portanto passou no exame.",
+      "sentence": "O filme é longo, mas é muito interessante.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Eu não gosto de frio, entretanto adoro a neve.",
+      "correctAnswer": {
+        "conjunction": "entretanto",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Não gosto de sopa nem de feijão.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "negativa"
+      }
+    },
+    {
+      "sentence": "Vou estudar bastante para passar no concurso público.",
+      "correctAnswer": {
+        "conjunction": "para",
+        "classification": "finalidade"
+      }
+    },
+    {
+      "sentence": "A palestra foi ótima, pois aprendi muitas coisas novas.",
+      "correctAnswer": {
+        "conjunction": "pois",
+        "classification": "explicativa"
+      }
+    },
+    {
+      "sentence": "Ele é um bom médico, todavia não sabe lidar com crianças.",
+      "correctAnswer": {
+        "conjunction": "todavia",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Não gosto de carne nem de frango.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "negativa"
+      }
+    },
+    {
+      "sentence": "Eu estou doente, então não posso ir à festa.",
+      "correctAnswer": {
+        "conjunction": "então",
+        "classification": "conclusiva"
+      }
+    },
+    {
+      "sentence": "Eu não gosto de praia, mas adoro piscina.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Ela não come carne, nem ovos, nem leite.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "negativa"
+      }
+    },
+    {
+      "sentence": "Eu acordei cedo para ir à academia, contudo estava muito frio.",
+      "correctAnswer": {
+        "conjunction": "contudo",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Comprei pão na padaria e queijo no mercado.",
+      "correctAnswer": {
+        "conjunction": "e",
+        "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Não bebo refrigerante, nem suco artificial.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "João foi ao cinema ontem à noite, então não pode ir ao show.",
+      "correctAnswer": {
+        "conjunction": "então",
+        "classification": "conclusiva"
+      }
+    },
+    {
+      "sentence": "Gosto de correr na praia, mas prefiro nadar na piscina.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Eu não gosto de acordar cedo, todavia faço isso todos os dias.",
+      "correctAnswer": {
+        "conjunction": "todavia",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Ele tem o dinheiro, logo pode comprar o carro.",
+      "correctAnswer": {
+        "conjunction": "logo",
+        "classification": "conclusiva"
+      }
+    },
+    {
+      "sentence": "Comi a pizza toda, portanto não sobrou nenhuma fatia.",
       "correctAnswer": {
         "conjunction": "portanto",
         "classification": "conclusiva"
+      }
+    },
+    {
+      "sentence": "Não gosto de café, nem de chá.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Eu estudo matemática, mas prefiro biologia.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Você pode escolher entre ir à praia ou ao parque.",
+      "correctAnswer": {
+        "conjunction": "ou",
+        "classification": "alternativa"
+      }
+    },
+    {
+      "sentence": "Eu amo minha mãe, porém brigamos muito.",
+      "correctAnswer": {
+        "conjunction": "porém",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Estou estudando para a prova, ainda assim estou um pouco nervoso.",
+      "correctAnswer": {
+        "conjunction": "ainda assim",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Gosto de música clássica, mas prefiro rock.",
+      "correctAnswer": {
+        "conjunction": "mas",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Ele não estuda, nem trabalha.",
+      "correctAnswer": {
+        "conjunction": "nem",
+        "classification": "adversativa"
       }
     }
   ]
