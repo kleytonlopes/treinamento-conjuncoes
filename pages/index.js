@@ -1,5 +1,6 @@
 import { useState } from "react";
 import conjunctionsData from "./conjunctions.json";
+import "./Conjunctions.css"; // importando o arquivo CSS
 
 export default function Conjunctions() {
   const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(0);
@@ -39,18 +40,21 @@ export default function Conjunctions() {
   }
 
   return (
-    <div>
+    <div className="conjunctions-container">
       <h1>Memorize a tabela de conjunções da língua portuguesa</h1>
       <p>
         Classifique a conjunção da seguinte frase em aditiva, adversativa,
         alternativa, conclusiva, etc:
       </p>
-      <p>
-        {currentConjunction.sentence.replace(
-          currentConjunction.correctAnswer.conjunction,
-          '<strong>${currentConjunction.correctAnswer.conjunction}</strong>'
-        )}
-      </p>
+      <p
+        className="conjunctions-sentence"
+        dangerouslySetInnerHTML={{
+          __html: currentConjunction.sentence.replace(
+            currentConjunction.correctAnswer.conjunction,
+            `<strong>${currentConjunction.correctAnswer.conjunction}</strong>`
+          ),
+        }}
+      />
       <form onSubmit={handleSubmit}>
         <label>
           Classificação:
@@ -59,13 +63,15 @@ export default function Conjunctions() {
             value={userAnswer}
             onChange={handleAnswer}
             required
+            className="conjunctions-input"
           />
         </label>
-        <button type="submit">Verificar</button>
+        <button type="submit" className="conjunctions-button">
+          Verificar
+        </button>
       </form>
-      {showSuccess && <p>Parabéns, você acertou!</p>}
-      {showError && <p>Você errou, tente novamente.</p>}
+      {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
+      {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
     </div>
   );
 }
-
