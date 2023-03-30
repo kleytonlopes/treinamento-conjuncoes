@@ -25,7 +25,7 @@
       "sentence": "Fui ao supermercado para comprar arroz e feijão.",
       "correctAnswer": {
         "conjunction": "para",
-        "classification": "finalidade"
+        "classification": "final"
       }
     },
     {
@@ -60,7 +60,7 @@
       "sentence": "Vou estudar bastante para passar no concurso público.",
       "correctAnswer": {
         "conjunction": "para",
-        "classification": "finalidade"
+        "classification": "final"
       }
     },
     {
