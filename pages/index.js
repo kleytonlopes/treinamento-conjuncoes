@@ -14,14 +14,6 @@ export default function Conjunctions() {
   useEffect(() => {
     setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
   }, []);
-  
-//   useEffect(() => {
-//     if (showNewQuestion) {
-//       setTimeout(() => {
-//         setShowNewQuestion(false);
-//       }, 1000);
-//     }
-//   }, [currentConjunctionIndex, showNewQuestion]);
 
   function handleAnswer(event) {
     const answer = event.target.value;
@@ -32,7 +24,7 @@ export default function Conjunctions() {
     event.preventDefault();
 
     if (
-      userAnswer.toLowerCase() ===
+      userAnswer.toLowerCase().trim() ===
       currentConjunction.correctAnswer.classification.toLowerCase()
     ) {
       setShowSuccess(true);
