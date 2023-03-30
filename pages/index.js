@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import conjunctionsData from "./conjunctions.json";
 
 export default function Conjunctions() {
-  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
+  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(
+    Math.floor(Math.random() * conjunctionsData.conjunctions.length)
+  );
   const [userAnswer, setUserAnswer] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [showNewQuestion, setShowNewQuestion] = useState(true);
 
   const conjunctions = conjunctionsData.conjunctions;
   const currentConjunction = conjunctions[currentConjunctionIndex];
@@ -18,12 +21,18 @@ export default function Conjunctions() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    if (userAnswer.toLowerCase() === currentConjunction.correctAnswer.classification.toLowerCase()) {
+    if (
+      userAnswer.toLowerCase() ===
+      currentConjunction.correctAnswer.classification.toLowerCase()
+    ) {
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);
         setUserAnswer("");
-        setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctions.length));
+        setCurrentConjunctionIndex(
+          Math.floor(Math.random() * conjunctions.length)
+        );
+        setShowNewQuestion(true);
       }, 3000);
     } else {
       setShowError(true);
@@ -34,6 +43,14 @@ export default function Conjunctions() {
     }
   }
 
+  useEffect(() => {
+    if (showNewQuestion) {
+      setTimeout(() => {
+        setShowNewQuestion(false);
+      }, 1000);
+    }
+  }, [currentConjunctionIndex, showNewQuestion]);
+
   return (
     <div className="conjunctions-container">
       <h1>Memorize a tabela de conjunções da língua portuguesa</h1>
@@ -41,15 +58,17 @@ export default function Conjunctions() {
         Classifique a conjunção da seguinte frase em aditiva, adversativa,
         alternativa, conclusiva, etc:
       </p>
-      <p
-        className="conjunctions-sentence"
-        dangerouslySetInnerHTML={{
-          __html: currentConjunction.sentence.replace(
-            currentConjunction.correctAnswer.conjunction,
-            `<strong>${currentConjunction.correctAnswer.conjunction}</strong>`
-          ),
-        }}
-      />
+      {showNewQuestion && (
+        <p
+          className="conjunctions-sentence"
+          dangerouslySetInnerHTML={{
+            __html: currentConjunction.sentence.replace(
+              currentConjunction.correctAnswer.conjunction,
+              `<strong>${currentConjunction.correctAnswer.conjunction}</strong>`
+            ),
+          }}
+        />
+      )}
       <form onSubmit={handleSubmit}>
         <label>
           Classificação:
@@ -64,9 +83,4 @@ export default function Conjunctions() {
         <button type="submit" className="conjunctions-button">
           Verificar
         </button>
-      </form>
-      {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
-      {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
-    </div>
-  );
-}
+      </
