@@ -2,16 +2,26 @@ import { useState, useEffect } from "react";
 import conjunctionsData from "./conjunctions.json";
 
 export default function Conjunctions() {
-  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(
-    Math.floor(Math.random() * conjunctionsData.conjunctions.length)
-  );
+  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(-1);
   const [userAnswer, setUserAnswer] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
   const [showNewQuestion, setShowNewQuestion] = useState(true);
 
   const conjunctions = conjunctionsData.conjunctions;
-  const currentConjunction = conjunctions[currentConjunctionIndex];
+  const currentConjunction = currentConjunctionIndex > -1 ? conjunctions[currentConjunctionIndex] : "";
+  
+  useEffect(() => {
+    setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
+  }, []);
+  
+  useEffect(() => {
+    if (showNewQuestion) {
+      setTimeout(() => {
+        setShowNewQuestion(false);
+      }, 1000);
+    }
+  }, [currentConjunctionIndex, showNewQuestion]);
 
   function handleAnswer(event) {
     const answer = event.target.value;
@@ -42,14 +52,6 @@ export default function Conjunctions() {
       }, 3000);
     }
   }
-
-  useEffect(() => {
-    if (showNewQuestion) {
-      setTimeout(() => {
-        setShowNewQuestion(false);
-      }, 1000);
-    }
-  }, [currentConjunctionIndex, showNewQuestion]);
 
   return (
     <div className="conjunctions-container">
