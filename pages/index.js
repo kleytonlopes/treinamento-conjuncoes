@@ -80,7 +80,12 @@ export default function Conjunctions() {
             className="conjunctions-input"
           />
         </label>
-        <button type="submit" className="conjunctions-button">
-          Verificar
-        </button>
-      </
+          <button type="submit" className="conjunctions-button">
+            Verificar
+          </button>
+       </form>
+      {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
+      {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
+    </div>
+  );
+}
