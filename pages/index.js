@@ -16,20 +16,25 @@ export default function Conjunctions() {
   }
 
   function handleSubmit(event) {
-    event.preventDefault()
-    const answer = userAnswer.toLowerCase()
-    if (answer === currentQuestion.correctAnswer.toLowerCase()) {
-      setShowSuccessMessage(true)
+    event.preventDefault();
+
+    if (userAnswer.toLowerCase() === currentConjunction.correctAnswer.classification.toLowerCase()) {
+      setShowSuccess(true);
       setTimeout(() => {
-        setShowSuccessMessage(false)
-        setUserAnswer('')
-        setQuestions(prevQuestions => prevQuestions.slice(1))
-      }, 3000)
+        setShowSuccess(false);
+        setUserAnswer("");
+        if (currentConjunctionIndex + 1 < conjunctions.length) {
+          setCurrentConjunctionIndex(currentConjunctionIndex + 1);
+        } else {
+          setCurrentConjunctionIndex(0);
+        }
+      }, 3000);
     } else {
-      setShowErrorMessage(true)
+      setShowError(true);
       setTimeout(() => {
-        setShowErrorMessage(false)
-      }, 3000)
+        setShowError(false);
+        setUserAnswer("");
+      }, 3000);
     }
   }
 
@@ -60,7 +65,7 @@ export default function Conjunctions() {
             className="conjunctions-input"
           />
         </label>
-        <button className="py-3 px-6 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg shadow-lg" type="submit">
+        <button type="submit" className="conjunctions-button">
           Verificar
         </button>
 
