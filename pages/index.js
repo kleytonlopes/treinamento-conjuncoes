@@ -50,7 +50,8 @@ export default function Conjunctions() {
       <h1>Memorize a tabela de conjunções da língua portuguesa</h1>
       <p>
         Classifique a conjunção da seguinte frase em aditiva, adversativa,
-        alternativa, conclusiva, etc:
+        alternativa, conclusiva, explicativa, causal, consecutiva, concessiva,
+        comparativa, condicional, conformativa, final, proporcional ou temporal:
       </p>
       {showNewQuestion && currentConjunction != '' &&(
         <p
