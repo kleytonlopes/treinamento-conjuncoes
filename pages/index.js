@@ -16,25 +16,20 @@ export default function Conjunctions() {
   }
 
   function handleSubmit(event) {
-    event.preventDefault();
-
-    if (userAnswer === currentConjunction.correctAnswer.classification) {
-      setShowSuccess(true);
+    event.preventDefault()
+    const answer = userAnswer.toLowerCase()
+    if (answer === currentQuestion.correctAnswer.toLowerCase()) {
+      setShowSuccessMessage(true)
       setTimeout(() => {
-        setShowSuccess(false);
-        setUserAnswer("");
-        if (currentConjunctionIndex + 1 < conjunctions.length) {
-          setCurrentConjunctionIndex(currentConjunctionIndex + 1);
-        } else {
-          setCurrentConjunctionIndex(0);
-        }
-      }, 3000);
+        setShowSuccessMessage(false)
+        setUserAnswer('')
+        setQuestions(prevQuestions => prevQuestions.slice(1))
+      }, 3000)
     } else {
-      setShowError(true);
+      setShowErrorMessage(true)
       setTimeout(() => {
-        setShowError(false);
-        setUserAnswer("");
-      }, 3000);
+        setShowErrorMessage(false)
+      }, 3000)
     }
   }
 
@@ -65,9 +60,10 @@ export default function Conjunctions() {
             className="conjunctions-input"
           />
         </label>
-        <button type="submit" className="conjunctions-button">
+        <button className="py-3 px-6 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg shadow-lg" type="submit">
           Verificar
         </button>
+
       </form>
       {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
       {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
