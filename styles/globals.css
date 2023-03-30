@@ -130,3 +130,8 @@ a {
   background-color: #fff;
   box-shadow: 0px 2px;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
