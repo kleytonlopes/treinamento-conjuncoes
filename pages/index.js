@@ -1,6 +1,5 @@
 import { useState } from "react";
 import conjunctionsData from "./conjunctions.json";
-import "./Conjunctions.css"; // importando o arquivo CSS
 
 export default function Conjunctions() {
   const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(0);
