@@ -2,7 +2,7 @@ import { useState } from "react";
 import conjunctionsData from "./conjunctions.json";
 
 export default function Conjunctions() {
-  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(0);
+  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
   const [userAnswer, setUserAnswer] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
@@ -23,11 +23,7 @@ export default function Conjunctions() {
       setTimeout(() => {
         setShowSuccess(false);
         setUserAnswer("");
-        if (currentConjunctionIndex + 1 < conjunctions.length) {
-          setCurrentConjunctionIndex(currentConjunctionIndex + 1);
-        } else {
-          setCurrentConjunctionIndex(0);
-        }
+        setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctions.length));
       }, 3000);
     } else {
       setShowError(true);
@@ -68,7 +64,6 @@ export default function Conjunctions() {
         <button type="submit" className="conjunctions-button">
           Verificar
         </button>
-
       </form>
       {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
       {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
