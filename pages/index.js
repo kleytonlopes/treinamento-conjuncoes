@@ -9,7 +9,7 @@ export default function Conjunctions() {
   const [showNewQuestion, setShowNewQuestion] = useState(true);
 
   const conjunctions = conjunctionsData.conjunctions;
-  const currentConjunction = currentConjunctionIndex > -1 ? conjunctions[currentConjunctionIndex] : "";
+  const currentConjunction = currentConjunctionIndex > -1 ? conjunctions[currentConjunctionIndex] : '';
   
   useEffect(() => {
     setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
@@ -60,7 +60,7 @@ export default function Conjunctions() {
         Classifique a conjunção da seguinte frase em aditiva, adversativa,
         alternativa, conclusiva, etc:
       </p>
-      {showNewQuestion && (
+      {showNewQuestion && currentConjunction != '' &&(
         <p
           className="conjunctions-sentence"
           dangerouslySetInnerHTML={{
