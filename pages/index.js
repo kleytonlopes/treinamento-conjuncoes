@@ -15,13 +15,13 @@ export default function Conjunctions() {
     setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
   }, []);
   
-  useEffect(() => {
-    if (showNewQuestion) {
-      setTimeout(() => {
-        setShowNewQuestion(false);
-      }, 1000);
-    }
-  }, [currentConjunctionIndex, showNewQuestion]);
+//   useEffect(() => {
+//     if (showNewQuestion) {
+//       setTimeout(() => {
+//         setShowNewQuestion(false);
+//       }, 1000);
+//     }
+//   }, [currentConjunctionIndex, showNewQuestion]);
 
   function handleAnswer(event) {
     const answer = event.target.value;
