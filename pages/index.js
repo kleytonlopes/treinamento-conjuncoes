@@ -48,7 +48,7 @@ export default function Conjunctions() {
       <p>
         {currentConjunction.sentence.replace(
           currentConjunction.correctAnswer.conjunction,
-          `<strong>${currentConjunction.correctAnswer.conjunction}</strong>`
+          '<strong>${currentConjunction.correctAnswer.conjunction}</strong>'
         )}
       </p>
       <form onSubmit={handleSubmit}>
