@@ -339,12 +339,12 @@
      {
       "sentence": "Mudanças são necessárias, conforme disse o professor.",
       "correctAnswer": {
-        "conjunction": "Conforme",
+        "conjunction": "conforme",
         "classification": "conformativa"
       }
     },
      {
-      "sentence": "Mas aprendi a fazer ammor para te ferir sem sentir nada.",
+      "sentence": "Mas aprendi a fazer amor para te ferir sem sentir nada.",
       "correctAnswer": {
         "conjunction": "para",
         "classification": "final"
