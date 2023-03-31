@@ -3,6 +3,8 @@ import conjunctionsData from "./conjunctions.json";
 
 export default function Conjunctions() {
   const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(-1);
+  const [hitCounter, setHitCounter] = useState(0);
+  const [missCounter, setMissCounter] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
@@ -27,6 +29,7 @@ export default function Conjunctions() {
       userAnswer.toLowerCase().trim() ===
       currentConjunction.correctAnswer.classification.toLowerCase()
     ) {
+      setHitCounter(hitCounter + 1)
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);
@@ -35,8 +38,9 @@ export default function Conjunctions() {
           Math.floor(Math.random() * conjunctions.length)
         );
         setShowNewQuestion(true);
-      }, 3000);
+      }, 1500);
     } else {
+      setMissCounter(missCounter + 1)
       setShowError(true);
       setTimeout(() => {
         setShowError(false);
@@ -81,6 +85,7 @@ export default function Conjunctions() {
        </form>
       {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
       {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
+      {<p>Acertos: {hitCounter} - Erros: {missCounter}</p>}
     </div>
   );
 }
