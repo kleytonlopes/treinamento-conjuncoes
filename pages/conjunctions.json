@@ -206,8 +206,246 @@
     {
       "sentence": "Ele não estuda, nem trabalha.",
       "correctAnswer": {
+        "conjunction": "e",
+        "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Eu me afasto e me defendo de você.",
+      "correctAnswer": {
         "conjunction": "nem",
         "classification": "aditiva"
+      }
+    },
+    {
+      "sentence": "Tenho ódio, e morro de amor por ela.",
+      "correctAnswer": {
+        "conjunction": "e",
+        "classification": "adversativa"
+      }
+    },
+    {
+      "sentence": "Muda de vida ou vai me perder.",
+      "correctAnswer": {
+        "conjunction": "ou",
+        "classification": "alternativa"
+      }
+    },
+    {
+      "sentence": "Eu estava à toa, e, por isso, resolvi te ligar.",
+      "correctAnswer": {
+        "conjunction": "por isso",
+        "classification": "conclusiva"
+      }
+    },
+    {
+      "sentence": "Meu filho, vá com Deus, que esse mundo inteiro é seu.",
+      "correctAnswer": {
+        "conjunction": "que",
+        "classification": "explicativa"
+      }
+    },
+    {
+      "sentence": "Mas eu me engano, me desespero, porque te amo, porque te quero.",
+      "correctAnswer": {
+        "conjunction": "porque",
+        "classification": "causal"
+      }
+    },
+    {
+      "sentence": "Mentes tão bem que parece verdade quando você me falas.",
+      "correctAnswer": {
+        "conjunction": "tão",
+        "classification": "consecutiva"
+      }
+    },
+    {
+      "sentence": "Mesmo sendo falso o ar, sinto que respiro.",
+      "correctAnswer": {
+        "conjunction": "Mesmo",
+        "classification": "concessiva"
+      }
+    },
+     {
+      "sentence": "Embora você tenha boas intenções, é impossível acreditar em suas palavras.",
+      "correctAnswer": {
+        "conjunction": "Embora",
+        "classification": "concessiva"
+      }
+    },
+     {
+      "sentence": "Por mais que eu me esforce, não consigo seguir uma dieta.",
+      "correctAnswer": {
+        "conjunction": "Por mais",
+        "classification": "concessiva"
+      }
+    },
+     {
+      "sentence": "Como o rio busca o mar, você vem me procurar.",
+      "correctAnswer": {
+        "conjunction": "Como",
+        "classification": "comparativa"
+      }
+    },
+     {
+      "sentence": "Procuro ser estudioso tal qual meu pai.",
+      "correctAnswer": {
+        "conjunction": "tal qual",
+        "classification": "comparativa"
+      }
+    },
+     {
+      "sentence": "O enfermeiro foi mais eficiente que o médico.",
+      "correctAnswer": {
+        "conjunction": "que",
+        "classification": "comparativa"
+      }
+    },
+     {
+      "sentence": "Mas não posso imaginar o que vai ser de mim, se eu te perder um dia.",
+      "correctAnswer": {
+        "conjunction": "se",
+        "classification": "condicional"
+      }
+    },
+     {
+      "sentence": "Se você demorar, eu não vou te procurar.",
+      "correctAnswer": {
+        "conjunction": "Se",
+        "classification": "condicional"
+      }
+    },
+     {
+      "sentence": "A vaga está disponível, caso você mude de ideia.",
+      "correctAnswer": {
+        "conjunction": "caso",
+        "classification": "condicional"
+      }
+    },
+     {
+      "sentence": "Como vovó já dizia, quem não tem colírio usa óculos escuros.",
+      "correctAnswer": {
+        "conjunction": "Como",
+        "classification": "conformativa"
+      }
+    },
+     {
+      "sentence": "Segundo pesquisas, o aquecimento global é um efeito natural.",
+      "correctAnswer": {
+        "conjunction": "Segundo",
+        "classification": "conformativa"
+      }
+    },
+     {
+      "sentence": "Mudanças são necessárias, conforme disse o professor.",
+      "correctAnswer": {
+        "conjunction": "Conforme",
+        "classification": "conformativa"
+      }
+    },
+     {
+      "sentence": "Mas aprendi a fazer ammor para te ferir sem sentir nada.",
+      "correctAnswer": {
+        "conjunction": "para",
+        "classification": "final"
+      }
+    },
+     {
+      "sentence": "A fim de alcançar bons resultados, estudamos todos os dias.",
+      "correctAnswer": {
+        "conjunction": "A fim de",
+        "classification": "final"
+      }
+    },
+     {
+      "sentence": "Os policiais trabalham para que a segurança seja mantida.",
+      "correctAnswer": {
+        "conjunction": "para que",
+        "classification": "final"
+      }
+    },
+     {
+      "sentence": "Quanto mais eu nego, mais você me tem.",
+      "correctAnswer": {
+        "conjunction": "Quanto mais",
+        "classification": "proporcional"
+      }
+    },
+     {
+      "sentence": "Os homens destroem o planeta à medida que se desenvolvem",
+      "correctAnswer": {
+        "conjunction": "à medida que",
+        "classification": "proporcional"
+      }
+    },
+     {
+      "sentence": "Quanto menos você dorme, menos rendem os estudos.",
+      "correctAnswer": {
+        "conjunction": "Quanto menos",
+        "classification": "proporcional"
+      }
+    },
+     {
+      "sentence": "Quando digo que deixei de te amar, é porque eu te amo.",
+      "correctAnswer": {
+        "conjunction": "Quando",
+        "classification": "temporal"
+      }
+    },
+     {
+      "sentence": "Enquanto os políticos descansam, os brasileiros trabalham arduamente.",
+      "correctAnswer": {
+        "conjunction": "Enquanto",
+        "classification": "temporal"
+      }
+    },
+     {
+      "sentence": "Ela está parada desde que chegou.",
+      "correctAnswer": {
+        "conjunction": "desde que",
+        "classification": "temporal"
+      }
+    },
+     {
+      "sentence": "A natureza é importante; deve, pois, ser preservada.",
+      "correctAnswer": {
+        "conjunction": "pois",
+        "classification": "conclusiva"
+      }
+    },
+     {
+      "sentence": "O susto foi tamanho que ele precisou tomar calmante.",
+      "correctAnswer": {
+        "conjunction": "tamanho que",
+        "classification": "consecutiva"
+      }
+    },
+     {
+      "sentence": "A torcida aclamou porque o gol foi lindo.",
+      "correctAnswer": {
+        "conjunction": "porque",
+        "classification": "causal"
+      }
+    },
+     {
+      "sentence": "A cidade está vazia, uma vez que muitas pessoas viajaram.",
+      "correctAnswer": {
+        "conjunction": "uma vez que",
+        "classification": "causal"
+      }
+    },
+     {
+      "sentence": "Não pude comparecer à festa porquanto tive de trabalhar até tarde.",
+      "correctAnswer": {
+        "conjunction": "porquanto",
+        "classification": "explicativo"
+      }
+    },
+     {
+      "sentence": "Porquanto não produzissem efeitos, as políticas do governo precisaram ser revistas.",
+      "correctAnswer": {
+        "conjunction": "Porquanto",
+        "classification": "causal"
       }
     }
   ]
