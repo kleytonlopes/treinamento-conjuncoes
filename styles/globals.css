@@ -86,13 +86,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #FFFFFF
 }
 
 a {
@@ -106,6 +100,8 @@ a {
   }
 }
 .conjunctions-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
