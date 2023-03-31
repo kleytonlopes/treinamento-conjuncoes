@@ -206,14 +206,14 @@
     {
       "sentence": "Ele não estuda, nem trabalha.",
       "correctAnswer": {
-        "conjunction": "e",
+        "conjunction": "nem",
         "classification": "aditiva"
       }
     },
     {
       "sentence": "Eu me afasto e me defendo de você.",
       "correctAnswer": {
-        "conjunction": "nem",
+        "conjunction": "e",
         "classification": "aditiva"
       }
     },
