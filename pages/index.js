@@ -64,7 +64,7 @@ export default function Conjunctions() {
           }}
         />
       )}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="conjunctions-form">
         <label>
           Classificação:
           <input
