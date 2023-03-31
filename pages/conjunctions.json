@@ -255,7 +255,7 @@
     {
       "sentence": "Mentes tão bem que parece verdade quando você me falas.",
       "correctAnswer": {
-        "conjunction": "tão",
+        "conjunction": "tão bem que",
         "classification": "consecutiva"
       }
     },
