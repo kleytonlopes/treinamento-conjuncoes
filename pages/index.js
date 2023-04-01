@@ -11,16 +11,17 @@ function Card({ title, description, link }) {
   );
 } 
 
-function Home() {
+function Home(props) {
   return (
     <div className="home">
       <Card
         title="Exercício de conjunções"
         description="memorização de classificação de conjunções"
-        link="/conjuncoes"
+        link="conjuncoes"
       />
     </div>
   );
 }
 
 export default Home;
+

@@ -1,20 +1,20 @@
 import { useState, useEffect } from "react";
-import conjunctionsData from "./conjunctions.json";
 
-export default function Conjunctions() {
-  const [currentConjunctionIndex, setCurrentConjunctionIndex] = useState(-1);
+export default function Quiz(props) {
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(-1);
   const [hitCounter, setHitCounter] = useState(0);
   const [missCounter, setMissCounter] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
   const [showNewQuestion, setShowNewQuestion] = useState(true);
+  const {questionsData, title, command, label} = props;
 
-  const conjunctions = conjunctionsData.conjunctions;
-  const currentConjunction = currentConjunctionIndex > -1 ? conjunctions[currentConjunctionIndex] : '';
+  const questions = questionsData.questions;
+  const currentQuestion = currentQuestionIndex > -1 ? questions[currentQuestionIndex] : '';
   
   useEffect(() => {
-    setCurrentConjunctionIndex(Math.floor(Math.random() * conjunctionsData.conjunctions.length));
+    setCurrentQuestionIndex(Math.floor(Math.random() * questions.length));
   }, []);
 
   function handleAnswer(event) {
@@ -27,15 +27,15 @@ export default function Conjunctions() {
 
     if (
       userAnswer.toLowerCase().trim() ===
-      currentConjunction.correctAnswer.classification.toLowerCase()
+      currentQuestion.correctAnswer.text.toLowerCase()
     ) {
       setHitCounter(hitCounter + 1)
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);
         setUserAnswer("");
-        setCurrentConjunctionIndex(
-          Math.floor(Math.random() * conjunctions.length)
+        setCurrentQuestionIndex(
+          Math.floor(Math.random() * questions.length)
         );
         setShowNewQuestion(true);
       }, 1500);
@@ -51,26 +51,24 @@ export default function Conjunctions() {
 
   return (
     <div className="conjunctions-container">
-      <h1>Memorize a tabela de conjunções da língua portuguesa</h1>
+      <h1>{title}</h1>
       <p>
-        Classifique a conjunção da seguinte frase em aditiva, adversativa,
-        alternativa, conclusiva, explicativa, causal, consecutiva, concessiva,
-        comparativa, condicional, conformativa, final, proporcional ou temporal:
+        {command}
       </p>
-      {showNewQuestion && currentConjunction != '' &&(
+      {showNewQuestion && currentQuestion != '' &&(
         <p
           className="conjunctions-sentence"
           dangerouslySetInnerHTML={{
-            __html: currentConjunction.sentence.replace(
-              currentConjunction.correctAnswer.conjunction,
-              `<strong>${currentConjunction.correctAnswer.conjunction}</strong>`
+            __html: currentQuestion.question.replace(
+              currentQuestion.highlight,
+              `<strong>${currentQuestion.highlight}</strong>`
             ),
           }}
         />
       )}
       <form onSubmit={handleSubmit} className="conjunctions-form">
         <label>
-          Classificação:
+          {label}
           <input
             type="text"
             value={userAnswer}
