@@ -8,7 +8,7 @@ function Card({ title, description, link, image }) {
         <h2>{title}</h2>
         <p>{description}</p>
         <img src={image} alt="Descrição da imagem"></img>
-        Acessar
+        <h2>Acessar</h2>
       </div>
     </Link>
   );
@@ -19,14 +19,14 @@ function Home(props) {
     <div className="cards-main">
        <div className="cards-container">
         <Card
-          title="Exercícios de conjunções"
-          description="memorização de classificação de conjunções"
+          title="CONJUNÇÕES"
+          description="Memorização de classificação de conjunções"
           link="conjuncoes"
           image="conjuncoes.jpeg"
         />
         <Card
-          title="Exercícios de acentuação"
-          description="memorização de palavras acentuadas"
+          title="ACENTUAÇÃO"
+          description="Memorização de palavras acentuadas"
           link="acentuacao"
           image="acentuacao.jpeg"
         />
