@@ -52,14 +52,14 @@ export default function Quiz(props) {
   }
 
   return (
-    <div className="conjunctions-container">
+    <div className="quiz-container">
       <h1>{title}</h1>
       <p>
         {command}
       </p>
       {showNewQuestion && currentQuestion != '' &&(
         <p
-          className="conjunctions-sentence"
+          className="quiz-question"
           dangerouslySetInnerHTML={{
             __html: currentQuestion.question.replace(
               currentQuestion.highlight,
@@ -68,7 +68,7 @@ export default function Quiz(props) {
           }}
         />
       )}
-      <form onSubmit={handleSubmit} className="conjunctions-form">
+      <form onSubmit={handleSubmit} className="quiz-form">
         <label>
           {label}
           <input
@@ -76,10 +76,10 @@ export default function Quiz(props) {
             value={userAnswer}
             onChange={handleAnswer}
             required
-            className="conjunctions-input"
+            className="quiz-input"
           />
         </label>
-          <button type="submit" className="conjunctions-button">
+          <button type="submit" className="quiz-button">
             Verificar
           </button>
        </form>

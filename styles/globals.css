@@ -95,7 +95,7 @@ a {
     color-scheme: dark;
   }
 }
-.conjunctions-container {
+.quiz-container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -106,13 +106,13 @@ a {
   border-radius: 10px;
 }
 
-.conjunctions-sentence {
+.quiz-question {
   margin: 20px 0;
   font-size: 24px;
   line-height: 1.4;
 }
 
-.conjunctions-input {
+.quiz-input {
   display: block;
   width: 100%;
   padding: 10px;
@@ -123,14 +123,14 @@ a {
   background-color: #fff;
   box-shadow: 0px 2px;
 }
-.conjunctions-form{
+.quiz-form{
     flex-direction: column;
     display: flex;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-.conjunctions-button {
+.quiz-button {
   background-color: wheat;
   align-items: center;
   margin-top: 2rem;
