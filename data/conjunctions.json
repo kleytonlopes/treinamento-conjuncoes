@@ -1,0 +1,456 @@
+{
+  "title": "Memorize a tabela de conjunções da língua portuguesa",
+  "command": "Classifique a conjunção da seguinte frase em aditiva, adversativa,\nalternativa, conclusiva, explicativa, causal, consecutiva, concessiva,\ncomparativa, condicional, conformativa, final, proporcional ou temporal:",
+  "label": "Insira a classificação:",
+  "questions": [
+    {
+      "question": "Eu trabalho muito, contudo não ganho o suficiente.",
+      "highlight": "contudo",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "O carro é novo, porém já apresentou alguns problemas.",
+      "highlight": "porém",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Eu acordei tarde, mas consegui chegar no trabalho a tempo.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Fui ao supermercado para comprar arroz e feijão.",
+      "highlight": "para",
+      "correctAnswer": {
+        "text": "final"
+      }
+    },
+    {
+      "question": "Você pode estudar em casa ou na biblioteca.",
+      "highlight": "ou",
+      "correctAnswer": {
+        "text": "alternativa"
+      }
+    },
+    {
+      "question": "O filme é longo, mas é muito interessante.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Eu não gosto de frio, entretanto adoro a neve.",
+      "highlight": "entretanto",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Não gosto de sopa nem de feijão.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Vou estudar bastante para passar no concurso público.",
+      "highlight": "para",
+      "correctAnswer": {
+        "text": "final"
+      }
+    },
+    {
+      "question": "A palestra foi ótima, pois aprendi muitas coisas novas.",
+      "highlight": "pois",
+      "correctAnswer": {
+        "text": "explicativa"
+      }
+    },
+    {
+      "question": "Ele é um bom médico, todavia não sabe lidar com crianças.",
+      "highlight": "todavia",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Não gosto de carne nem de frango.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Eu estou doente, então não posso ir à festa.",
+      "highlight": "então",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "Eu não gosto de praia, mas adoro piscina.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Ela não come carne, nem ovos, nem leite.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Eu acordei cedo para ir à academia, contudo estava muito frio.",
+      "highlight": "contudo",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Comprei pão na padaria e queijo no mercado.",
+      "highlight": "e",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Não bebo refrigerante, nem suco artificial.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "João foi ao cinema ontem à noite, então não pode ir ao show.",
+      "highlight": "então",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "Gosto de correr na praia, mas prefiro nadar na piscina.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Eu não gosto de acordar cedo, todavia faço isso todos os dias.",
+      "highlight": "todavia",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Ele tem o dinheiro, logo pode comprar o carro.",
+      "highlight": "logo",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "Comi a pizza toda, portanto não sobrou nenhuma fatia.",
+      "highlight": "portanto",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "Não gosto de café, nem de chá.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Eu estudo matemática, mas prefiro biologia.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Você pode escolher entre ir à praia ou ao parque.",
+      "highlight": "ou",
+      "correctAnswer": {
+        "text": "alternativa"
+      }
+    },
+    {
+      "question": "Eu amo minha mãe, porém brigamos muito.",
+      "highlight": "porém",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Estou estudando para a prova, ainda assim estou um pouco nervoso.",
+      "highlight": "ainda assim",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Gosto de música clássica, mas prefiro rock.",
+      "highlight": "mas",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Ele não estuda, nem trabalha.",
+      "highlight": "nem",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Eu me afasto e me defendo de você.",
+      "highlight": "e",
+      "correctAnswer": {
+        "text": "aditiva"
+      }
+    },
+    {
+      "question": "Tenho ódio, e morro de amor por ela.",
+      "highlight": "e",
+      "correctAnswer": {
+        "text": "adversativa"
+      }
+    },
+    {
+      "question": "Muda de vida ou vai me perder.",
+      "highlight": "ou",
+      "correctAnswer": {
+        "text": "alternativa"
+      }
+    },
+    {
+      "question": "Eu estava à toa, e, por isso, resolvi te ligar.",
+      "highlight": "por isso",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "Meu filho, vá com Deus, que esse mundo inteiro é seu.",
+      "highlight": "que",
+      "correctAnswer": {
+        "text": "explicativa"
+      }
+    },
+    {
+      "question": "Mas eu me engano, me desespero, porque te amo, porque te quero.",
+      "highlight": "porque",
+      "correctAnswer": {
+        "text": "causal"
+      }
+    },
+    {
+      "question": "Mentes tão bem que parece verdade quando você me falas.",
+      "highlight": "tão bem que",
+      "correctAnswer": {
+        "highlight": "tão bem que",
+        "text": "consecutiva"
+      }
+    },
+    {
+      "question": "Mesmo sendo falso o ar, sinto que respiro.",
+      "highlight": "Mesmo",
+      "correctAnswer": {
+        "text": "concessiva"
+      }
+    },
+    {
+      "question": "Embora você tenha boas intenções, é impossível acreditar em suas palavras.",
+      "highlight": "Embora",
+      "correctAnswer": {
+        "text": "concessiva"
+      }
+    },
+    {
+      "question": "Por mais que eu me esforce, não consigo seguir uma dieta.",
+      "highlight": "Por mais",
+      "correctAnswer": {
+        "text": "concessiva"
+      }
+    },
+    {
+      "question": "Como o rio busca o mar, você vem me procurar.",
+      "highlight": "Como",
+      "correctAnswer": {
+        "text": "comparativa"
+      }
+    },
+    {
+      "question": "Procuro ser estudioso tal qual meu pai.",
+      "highlight": "tal qual",
+      "correctAnswer": {
+        "text": "comparativa"
+      }
+    },
+    {
+      "question": "O enfermeiro foi mais eficiente que o médico.",
+      "highlight": "que",
+      "correctAnswer": {
+        "text": "comparativa"
+      }
+    },
+    {
+      "question": "Mas não posso imaginar o que vai ser de mim, se eu te perder um dia.",
+      "highlight": "se",
+      "correctAnswer": {
+        "text": "condicional"
+      }
+    },
+    {
+      "question": "Se você demorar, eu não vou te procurar.",
+      "highlight": "Se",
+      "correctAnswer": {
+        "text": "condicional"
+      }
+    },
+    {
+      "question": "A vaga está disponível, caso você mude de ideia.",
+      "highlight": "caso",
+      "correctAnswer": {
+        "text": "condicional"
+      }
+    },
+    {
+      "question": "Como vovó já dizia, quem não tem colírio usa óculos escuros.",
+      "highlight": "Como",
+      "correctAnswer": {
+        "text": "conformativa"
+      }
+    },
+    {
+      "question": "Segundo pesquisas, o aquecimento global é um efeito natural.",
+      "highlight": "Segundo",
+      "correctAnswer": {
+        "text": "conformativa"
+      }
+    },
+    {
+      "question": "Mudanças são necessárias, conforme disse o professor.",
+      "highlight": "conforme",
+      "correctAnswer": {
+        "text": "conformativa"
+      }
+    },
+    {
+      "question": "Mas aprendi a fazer amor para te ferir sem sentir nada.",
+      "highlight": "para",
+      "correctAnswer": {
+        "text": "final"
+      }
+    },
+    {
+      "question": "A fim de alcançar bons resultados, estudamos todos os dias.",
+      "highlight": "A fim de",
+      "correctAnswer": {
+        "text": "final"
+      }
+    },
+    {
+      "question": "Os policiais trabalham para que a segurança seja mantida.",
+      "highlight": "para que",
+      "correctAnswer": {
+        "text": "final"
+      }
+    },
+    {
+      "question": "Quanto mais eu nego, mais você me tem.",
+      "highlight": "Quanto mais",
+      "correctAnswer": {
+        "text": "proporcional"
+      }
+    },
+    {
+      "question": "Os homens destroem o planeta à medida que se desenvolvem",
+      "highlight": "à medida que",
+      "correctAnswer": {
+        "text": "proporcional"
+      }
+    },
+    {
+      "question": "Quanto menos você dorme, menos rendem os estudos.",
+      "highlight": "Quanto menos",
+      "correctAnswer": {
+        "text": "proporcional"
+      }
+    },
+    {
+      "question": "Quando digo que deixei de te amar, é porque eu te amo.",
+      "highlight": "Quando",
+      "correctAnswer": {
+        "text": "temporal"
+      }
+    },
+    {
+      "question": "Enquanto os políticos descansam, os brasileiros trabalham arduamente.",
+      "highlight": "Enquanto",
+      "correctAnswer": {
+        "text": "temporal"
+      }
+    },
+    {
+      "question": "Ela está parada desde que chegou.",
+      "highlight": "desde que",
+      "correctAnswer": {
+        "text": "temporal"
+      }
+    },
+    {
+      "question": "A natureza é importante; deve, pois, ser preservada.",
+      "highlight": "pois",
+      "correctAnswer": {
+        "text": "conclusiva"
+      }
+    },
+    {
+      "question": "O susto foi tamanho que ele precisou tomar calmante.",
+      "highlight": "tamanho que",
+      "correctAnswer": {
+        "text": "consecutiva"
+      }
+    },
+    {
+      "question": "A torcida aclamou porque o gol foi lindo.",
+      "highlight": "porque",
+      "correctAnswer": {
+        "text": "causal"
+      }
+    },
+    {
+      "question": "A cidade está vazia, uma vez que muitas pessoas viajaram.",
+      "highlight": "uma vez que",
+      "correctAnswer": {
+        "text": "causal"
+      }
+    },
+    {
+      "question": "Não pude comparecer à festa porquanto tive de trabalhar até tarde.",
+      "highlight": "porquanto",
+      "correctAnswer": {
+        "text": "explicativo"
+      }
+    },
+    {
+      "question": "Porquanto não produzissem efeitos, as políticas do governo precisaram ser revistas.",
+      "highlight": "Porquanto",
+      "correctAnswer": {
+        "text": "causal"
+      }
+    }
+  ]
+}
