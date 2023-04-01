@@ -10,7 +10,7 @@ export default function Quiz(props) {
   const [showNewQuestion, setShowNewQuestion] = useState(true);
   const {questionsData, title, command, label} = props;
 
-  const questions = questionsData.questions;
+  const questions = questionsData;
   const currentQuestion = currentQuestionIndex > -1 ? questions[currentQuestionIndex] : '';
   
   useEffect(() => {
@@ -34,8 +34,10 @@ export default function Quiz(props) {
       setTimeout(() => {
         setShowSuccess(false);
         setUserAnswer("");
+        const currentIndex = Math.floor(Math.random() * questions.length);
+        console.log(currentIndex+'--'+questions.length);
         setCurrentQuestionIndex(
-          Math.floor(Math.random() * questions.length)
+          currentIndex
         );
         setShowNewQuestion(true);
       }, 1500);

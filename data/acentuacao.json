@@ -1,0 +1,28 @@
+{
+  "title": "Memorize as regras de acentuação da Língua Portuguesa",
+  "command": "Reescreva a palavra em destaque do modo correto",
+  "label": "Insira a palavra:",
+  "questions": [
+    {
+      "question": "Eu não tenho ideia do que você está falando",
+      "highlight": "ideia",
+      "correctAnswer": {
+        "text": "ideia"
+      }
+    },
+    {
+      "question": "O hipopotamo está submerso.",
+      "highlight": "hipopotamo",
+      "correctAnswer": {
+        "text": "hipopótamo"
+      }
+    },
+    {
+      "question": "A faxineira retinou o po dos móveis.",
+      "highlight": "po",
+      "correctAnswer": {
+        "text": "pó"
+      }
+    }
+  ]
+}

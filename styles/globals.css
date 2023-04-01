@@ -138,3 +138,46 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.cards-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container {
+  display: flex;
+  max-width: 70%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.card-container {
+  flex-basis: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card-container img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}

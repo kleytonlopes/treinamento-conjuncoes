@@ -21,31 +21,23 @@ export default function Quiz(props) {
 export async function getStaticProps(context) {
   const { type_quiz } = context.params;
   let props = {type: type_quiz};
+  var currentJson = {};
   switch (type_quiz) {
     case 'conjuncoes':
-       const dataConjunctions = require('../../data/conjunctions.json');
-       props = {
-        ...props, 
-        title: 'Memorize a tabela de conjunções da língua portuguesa',
-        command: 'Classifique a conjunção da seguinte frase em aditiva, adversativa,\n'+
-        'alternativa, conclusiva, explicativa, causal, consecutiva, concessiva,\n'+
-        'comparativa, condicional, conformativa, final, proporcional ou temporal:',
-        label:'Insira a classificação: ',
-        data: dataConjunctions
-      }
+      currentJson = require('../../data/conjunctions.json');
+      
       break;
     default:
-      const dataCrase = require('../../data/conjunctions.json');
-       props = {
-        ...props, 
-        title: 'Memorize o usa da crase da língua portuguesa',
-        command: 'Verifique se o uso da crase está correto!',
-        label:'Entre com a resposta correta: ',
-        data: dataCrase
-      }
+      currentJson = require('../../data/acentuacao.json');
       break;
   }
-  
+  props = {
+    ...props, 
+    title: currentJson.title,
+    command: currentJson.command,
+    label: currentJson.label,
+    data: currentJson.questions
+  }
   return {
     props: props,
   };
@@ -54,7 +46,7 @@ export async function getStaticProps(context) {
 export async function getStaticPaths() {
   const paths = [
     {params: { type_quiz: 'conjuncoes'}},
-    {params: { type_quiz: 'crase'}}
+    {params: { type_quiz: 'acentuacao'}}
   ];
   return { paths, fallback: false }
 }
