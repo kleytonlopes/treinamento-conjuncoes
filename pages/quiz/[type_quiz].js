@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Conjunctions from "./quiz";
+import GenericQuiz from "./quiz";
 
 export default function Quiz(props) {
   useEffect(() => {
@@ -9,11 +9,12 @@ export default function Quiz(props) {
   }, []);
 
   return (
-    <Conjunctions 
+    <GenericQuiz 
       title={props.title} 
       command={props.command}
       label={props.label}
       questionsData={props.data}
+      explanations = {props.explanations}
     />
   );
 }
@@ -36,7 +37,8 @@ export async function getStaticProps(context) {
     title: currentJson.title,
     command: currentJson.command,
     label: currentJson.label,
-    data: currentJson.questions
+    data: currentJson.questions,
+    explanations: currentJson.explanations
   }
   return {
     props: props,

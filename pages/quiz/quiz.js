@@ -10,7 +10,7 @@ export default function Quiz(props) {
   const [showError, setShowError] = useState(false);
   const [showNewQuestion, setShowNewQuestion] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
-  const {questionsData, title, command, label} = props;
+  const {questionsData, title, command, label, explanations} = props;
 
   const questions = questionsData;
   const currentQuestion = currentQuestionIndex > -1 ? questions[currentQuestionIndex] : '';
@@ -25,17 +25,7 @@ export default function Quiz(props) {
   }
 
   function togglePopup() {
-    setShowPopup(!showPopup);
-  };
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    // togglePopup();
-
-    if (
-      userAnswer.toLowerCase().trim() ===
-      currentQuestion.correctAnswer.text.toLowerCase()
-    ) {
+    if(showPopup){
       setHitCounter(hitCounter + 1)
       setShowSuccess(true);
       setTimeout(() => {
@@ -47,7 +37,20 @@ export default function Quiz(props) {
           currentIndex
         );
         setShowNewQuestion(true);
-      }, 1500);
+      }, 200);
+    }
+    setShowPopup(!showPopup);
+  };
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    if (
+      userAnswer.toLowerCase().trim() ===
+      currentQuestion.correctAnswer.text.toLowerCase()
+    ) {
+      setTimeout(() => {
+        togglePopup();
+      }, 500);
     } else {
       setMissCounter(missCounter + 1)
       setShowError(true);
@@ -98,8 +101,15 @@ export default function Quiz(props) {
           </div>
           {showPopup && 
               <Popup show={showPopup} onClose={togglePopup}>
-                <h1>Meu popup</h1>
-                <p>Este é o conteúdo do meu popup</p>
+                <h1>Parabém, você acertou!</h1><br/>
+                <h3><b>{currentQuestion.highlight.toUpperCase()}</b>, em "{currentQuestion.question}", deve ser <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
+                <h3 
+                   dangerouslySetInnerHTML={{__html: props.explanations[Number(currentQuestion.correctAnswer.explanation)].content}}
+                />
+                <br/>Exemplo(s):<br/>
+                <div className="pop-examples">
+                  {currentQuestion.correctAnswer.examples.map((sentence, index) => <p><b>{index+1} - </b>{sentence}</p>)}
+                </div>
               </Popup>
           }
     </div>
