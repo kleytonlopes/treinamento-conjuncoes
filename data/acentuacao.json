@@ -2,26 +2,37 @@
   "title": "Memorize as regras de acentuação da Língua Portuguesa",
   "command": "Reescreva a palavra em destaque do modo correto",
   "label": "Insira a palavra:",
+  "explanations": [
+    {"index": 0, "title": "Proparoxítona", "content": "<b>Todas as proparoxítonas são acentuadas!</b>"},
+    {"index": 1, "title": "Paroxítona", "content": "<b>Paroxítonas não terminadas em <u>a, e, o e em(ens)</u> são acentuadas</b>"},    
+    {"index": 2, "title": "Oxótona", "content": "<b>Oxítonas terminadas em <u>a, e, o e em(ens)</u> são acentuadas</b>"}      
+  ],
   "questions": [
     {
       "question": "Eu não tenho ideia do que você está falando",
       "highlight": "ideia",
       "correctAnswer": {
-        "text": "ideia"
+        "text": "ideia",
+        "explanation": 1,
+        "examples": ["Jiboia", "Lacraia"]
       }
     },
     {
       "question": "O hipopotamo está submerso.",
       "highlight": "hipopotamo",
       "correctAnswer": {
-        "text": "hipopótamo"
+        "text": "hipopótamo",
+        "explanation": 0,
+        "examples": ["Túnica", "Lâmpada"]
       }
     },
     {
       "question": "A faxineira retinou o po dos móveis.",
       "highlight": "po",
       "correctAnswer": {
-        "text": "pó"
+        "text": "pó",
+        "explanation": 2,
+        "examples": ["Pá", "Jiló"]
       }
     }
   ]
