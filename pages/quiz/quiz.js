@@ -102,13 +102,13 @@ export default function Quiz(props) {
           {showPopup && 
               <Popup show={showPopup} onClose={togglePopup}>
                 <h1>Parabém, você acertou!</h1><br/>
-                <h3><b>{currentQuestion.highlight.toUpperCase()}</b>, em "{currentQuestion.question}", deve ser <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
+                <h3><b>{currentQuestion.highlight.toUpperCase()}</b>, em {currentQuestion.question}, deve ser <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
                 <h3 
                    dangerouslySetInnerHTML={{__html: props.explanations[Number(currentQuestion.correctAnswer.explanation)].content}}
                 />
                 <br/>Exemplo(s):<br/>
                 <div className="pop-examples">
-                  {currentQuestion.correctAnswer.examples.map((sentence, index) => <p><b>{index+1} - </b>{sentence}</p>)}
+                  {currentQuestion.correctAnswer.examples.map((sentence, index) => <p key={index+sentence}><b>{index+1} - </b>{sentence}</p>)}
                 </div>
               </Popup>
           }
