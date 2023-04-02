@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Popup from "./popup";
 
 export default function Quiz(props) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(-1);
@@ -8,6 +9,7 @@ export default function Quiz(props) {
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
   const [showNewQuestion, setShowNewQuestion] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
   const {questionsData, title, command, label} = props;
 
   const questions = questionsData;
@@ -22,8 +24,13 @@ export default function Quiz(props) {
     setUserAnswer(answer);
   }
 
+  function togglePopup() {
+    setShowPopup(!showPopup);
+  };
+
   function handleSubmit(event) {
     event.preventDefault();
+    // togglePopup();
 
     if (
       userAnswer.toLowerCase().trim() ===
@@ -52,40 +59,48 @@ export default function Quiz(props) {
   }
 
   return (
-    <div className="quiz-container">
-      <h1>{title}</h1>
-      <p>
-        {command}
-      </p>
-      {showNewQuestion && currentQuestion != '' &&(
-        <p
-          className="quiz-question"
-          dangerouslySetInnerHTML={{
-            __html: currentQuestion.question.replace(
-              currentQuestion.highlight,
-              `<strong>${currentQuestion.highlight}</strong>`
-            ),
-          }}
-        />
-      )}
-      <form onSubmit={handleSubmit} className="quiz-form">
-        <label>
-          {label}
-          <input
-            type="text"
-            value={userAnswer}
-            onChange={handleAnswer}
-            required
-            className="quiz-input"
-          />
-        </label>
-          <button type="submit" className="quiz-button">
-            Verificar
-          </button>
-       </form>
-      {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
-      {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
-      {<p>Acertos: {hitCounter} - Erros: {missCounter}</p>}
+    <div>
+         <div className="quiz-container">
+              <h1>{title}</h1>
+              <p>
+                {command}
+              </p>
+              {showNewQuestion && currentQuestion != '' &&(
+                <p
+                  className="quiz-question"
+                  dangerouslySetInnerHTML={{
+                    __html: currentQuestion.question.replace(
+                      currentQuestion.highlight,
+                      `<strong>${currentQuestion.highlight}</strong>`
+                    ),
+                  }}
+                />
+              )}
+              <form onSubmit={handleSubmit} className="quiz-form">
+                <label>
+                  {label}
+                  <input
+                    type="text"
+                    value={userAnswer}
+                    onChange={handleAnswer}
+                    required
+                    className="quiz-input"
+                  />
+                </label>
+                  <button type="submit" className="quiz-button">
+                    Verificar
+                  </button>
+              </form>
+              {showSuccess && <p className="conjunctions-success">Parabéns, você acertou!</p>}
+              {showError && <p className="conjunctions-error">Você errou, tente novamente.</p>}
+            {<p>Acertos: {hitCounter} - Erros: {missCounter}</p>}
+          </div>
+          {showPopup && 
+              <Popup show={showPopup} onClose={togglePopup}>
+                <h1>Meu popup</h1>
+                <p>Este é o conteúdo do meu popup</p>
+              </Popup>
+          }
     </div>
   );
 }
