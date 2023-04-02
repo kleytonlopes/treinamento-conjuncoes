@@ -80,6 +80,7 @@ export default function Quiz(props) {
                 <label>
                   {label}
                   <input
+                    autoComplete="off"
                     type="text"
                     value={userAnswer}
                     onChange={handleAnswer}
