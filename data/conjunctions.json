@@ -683,7 +683,7 @@
       "question": "Não pude comparecer à festa porquanto tive de trabalhar até tarde.",
       "highlight": "porquanto",
       "correctAnswer": {
-        "text": "explicativa",
+        "text": "causal",
         "explanation": 4,
         "examples": [ "Não pude comparecer à festa porque tive de trabalhar até tarde.",
                       "Não pude comparecer à festa pois tive de trabalhar até tarde."]
