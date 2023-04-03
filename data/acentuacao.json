@@ -4,8 +4,8 @@
   "label": "Insira a palavra:",
   "explanations": [
     {"index": 0, "title": "Proparoxítona", "content": "<b>Todas as proparoxítonas são acentuadas!</b>"},
-    {"index": 1, "title": "Paroxítona", "content": "<b>Paroxítonas não terminadas em <u>a, e, o e em(ens)</u> são acentuadas</b>"},    
-    {"index": 2, "title": "Oxótona", "content": "<b>Oxítonas terminadas em <u>a, e, o e em(ens)</u> são acentuadas</b>"}      
+    {"index": 1, "title": "Paroxítona", "content": "<b>Somente paroxítonas não terminadas em <u>a, e, o e em(ens)</u> são <u>acentuadas</u></b>"},    
+    {"index": 2, "title": "Oxótona", "content": "<b>Oxítonas terminadas em <u>a, e, o e em(ens)</u> são <u>acentuadas</u></b>"}      
   ],
   "questions": [
     {

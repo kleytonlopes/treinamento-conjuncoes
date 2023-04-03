@@ -102,7 +102,7 @@ export default function Quiz(props) {
           {showPopup && 
               <Popup show={showPopup} onClose={togglePopup}>
                 <h1>Parabém, você acertou!</h1><br/>
-                <h3><b><u>{currentQuestion.question}</u> : </b>{currentQuestion.highlight.toUpperCase()} → <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
+                <h3><b><u className="color-highlight">{currentQuestion.question}</u> : </b>{currentQuestion.highlight.toUpperCase()} → <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
                 <h3 
                    dangerouslySetInnerHTML={{__html: props.explanations[Number(currentQuestion.correctAnswer.explanation)].content}}
                 />

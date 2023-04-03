@@ -169,7 +169,11 @@ a {
   text-align: center;
 }
 
- h3 {
+h1 {
+  text-align: center;
+}
+
+h3 {
   font-weight: normal;
 }
 
@@ -201,10 +205,13 @@ a {
 
 .popup-inner {
   display: flex;
+  overflow-y: auto;
   flex-direction: column;
   align-items: center;
   min-height: 50%;
   min-width: 80%;
+  max-height: 80%;
+  max-width: 95%;
   background-color: #fff;
   padding: 20px 20px 100px 20px;
   border-radius: 5px;
@@ -234,6 +241,10 @@ a {
   font-size: 19px;
   gap: 10px;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 5px;
+}
+
+.color-highlight{
+  color: blue;
 }
 
