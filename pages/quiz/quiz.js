@@ -44,10 +44,8 @@ export default function Quiz(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    if (
-      userAnswer.toLowerCase().trim() ===
-      currentQuestion.correctAnswer.text.toLowerCase()
-    ) {
+
+    if(currentQuestion.correctAnswer.texts.findIndex(item =>  userAnswer.toLowerCase().trim().toLowerCase() === item.toLowerCase()) > -1) {
       setTimeout(() => {
         togglePopup();
       }, 500);
@@ -102,7 +100,7 @@ export default function Quiz(props) {
           {showPopup && 
               <Popup show={showPopup} onClose={togglePopup}>
                 <h1>Parabém, você acertou!</h1><br/>
-                <h3><b><u className="color-highlight">{currentQuestion.question}</u> : </b>{currentQuestion.highlight.toUpperCase()} → <u><b> {currentQuestion.correctAnswer.text.toUpperCase()}</b></u></h3><br/>
+                <h3><b><u className="color-highlight">{currentQuestion.question}</u> : </b>{currentQuestion.highlight.toUpperCase()} → <u><b> {currentQuestion.correctAnswer.texts[0].toUpperCase()}</b></u></h3><br/>
                 <h3 
                    dangerouslySetInnerHTML={{__html: props.explanations[Number(currentQuestion.correctAnswer.explanation)].content}}
                 />

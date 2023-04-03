@@ -15,7 +15,7 @@
       "question": "O hipopotamo está submerso.",
       "highlight": "hipopotamo",
       "correctAnswer": {
-        "text": "hipopótamo",
+        "texts": ["hipopótamo"],
         "explanation": 5,
         "examples": ["Túnica", "Lâmpada"]
       }
@@ -24,7 +24,7 @@
       "question": "Caju é a fruta símbolo do Nordeste.",
       "highlight": "Caju",
       "correctAnswer": {
-        "text": "caju",
+        "texts": ["caju"],
         "explanation": 3,
         "examples": ["Xampu", "Bambu", "Menu", "Urubu", "Chuchu"]
       }
@@ -33,7 +33,7 @@
       "question": "A mulher passou xampu no cabelo.",
       "highlight": "xampu",
       "correctAnswer": {
-        "text": "xampu",
+        "texts": ["xampu"],
         "explanation": 3,
         "examples": ["Caju", "Bambu", "Menu", "Urubu", "Chuchu"]
       }
@@ -42,7 +42,7 @@
       "question": "O urubu estava aproveitando as correntes de ar para planar.",
       "highlight": "urubu",
       "correctAnswer": {
-        "text": "urubu",
+        "texts": ["urubu"],
         "explanation": 3,
         "examples": ["Xampu", "Bambu", "Menu", "Urubu", "Chuchu"]
       }
@@ -51,7 +51,7 @@
       "question": "O livro deve estar na prateleira.",
       "highlight": "estar",
       "correctAnswer": {
-        "text": "estar",
+        "texts": ["estar"],
         "explanation": 3,
         "examples": ["Amor", "Falar", "Ligar", "Cozinhar", "Poder"]
       }
@@ -60,7 +60,7 @@
       "question": "Dei de presente um gibi para a minha filha.",
       "highlight": "gibi",
       "correctAnswer": {
-        "text": "gibi",
+        "texts": ["gibi"],
         "explanation": 3,
         "examples": ["Bacuri", "Guarani", "Jabuti", "Caqui", "Tupi", "Bisturi", "Ali"]
       }
@@ -69,7 +69,7 @@
       "question": "O médico manipulou o bisturi com muito cuidado.",
       "highlight": "bisturi",
       "correctAnswer": {
-        "text": "bisturi",
+        "texts": ["bisturi"],
         "explanation": 3,
         "examples": ["Bacuri", "Guarani", "Jabuti", "Caqui", "Tupi", "Gibi", "Ali"]
       }
@@ -78,7 +78,7 @@
       "question": "A esposa deu piti porque estava com ciúmes.",
       "highlight": "piti",
       "correctAnswer": {
-        "text": "piti",
+        "texts": ["piti"],
         "explanation": 3,
         "examples": ["Bacuri", "Guarani", "Jabuti", "Caqui", "Tupi", "Gibi", "Ali"]
       }
@@ -87,7 +87,7 @@
       "question": "Minha fruta favorita é o caqui.",
       "highlight": "caqui",
       "correctAnswer": {
-        "text": "caqui",
+        "texts": ["caqui"],
         "explanation": 3,
         "examples": ["Bacuri", "Guarani", "Jabuti", "Piti", "Tupi", "Gibi", "Ali"]
       }
@@ -96,7 +96,7 @@
       "question": "O homem precisa redefinir o seu papel na sociedade.",
       "highlight": "papel",
       "correctAnswer": {
-        "text": "papel",
+        "texts": ["papel"],
         "explanation": 3,
         "examples": ["Lençol", "Fuzil", "Canil", "Hotel", "Futebol", "Animal"]
       }
@@ -105,7 +105,7 @@
       "question": "O traficante estava com su fuzil vigiando a favela.",
       "highlight": "fuzil",
       "correctAnswer": {
-        "text": "fuzil",
+        "texts": ["fuzil"],
         "explanation": 3,
         "examples": ["Lençol", "Papel", "Canil", "Hotel", "Futebol", "Animal"]
       }
@@ -114,7 +114,7 @@
       "question": "Ana esticou o lençol na cama.",
       "highlight": "lençol",
       "correctAnswer": {
-        "text": "lençol",
+        "texts": ["lençol"],
         "explanation": 3,
         "examples": ["Fuzil", "Papel", "Canil", "Hotel", "Futebol", "Animal"]
       }
@@ -123,7 +123,7 @@
       "question": "O fungo contaminou a raiz da planta.",
       "highlight": "raiz",
       "correctAnswer": {
-        "text": "raiz",
+        "texts": ["raiz"],
         "explanation": 3,
         "examples": ["Feliz", "Xadrez", "Verniz", "Cicatriz", "Chafariz"]
       }
@@ -132,7 +132,7 @@
       "question": "O chafariz da cidade foi construído.",
       "highlight": "chafariz",
       "correctAnswer": {
-        "text": "chafariz",
+        "texts": ["chafariz"],
         "explanation": 3,
         "examples": ["Feliz", "Xadrez", "Verniz", "Cicatriz", "Raiz", "Veloz"]
       }
@@ -141,7 +141,7 @@
       "question": "O carro estava muito veloz.",
       "highlight": "veloz",
       "correctAnswer": {
-        "text": "veloz",
+        "texts": ["veloz"],
         "explanation": 3,
         "examples": ["Feroz","Feliz", "Xadrez", "Verniz", "Cicatriz", "Raiz", "Chafariz"]
       }
@@ -150,7 +150,7 @@
       "question": "Joana adora fazer botox para se sentir mais jovem.",
       "highlight": "botox",
       "correctAnswer": {
-        "text": "botox",
+        "texts": ["botox"],
         "explanation": 3,
         "examples": ["Xerox", "Pirex", "Inox", "Triplex", "Durex", "Telex"]
       }
@@ -159,7 +159,7 @@
       "question": "As panelas que você comprou são de inox.",
       "highlight": "inox",
       "correctAnswer": {
-        "text": "inox",
+        "texts": ["inox"],
         "explanation": 3,
         "examples": ["Xerox", "Pirex", "Botox", "Triplex", "Durex", "Telex"]
       }
@@ -168,7 +168,7 @@
       "question": "Lula se complicou por causa do triplex.",
       "highlight": "triplex",
       "correctAnswer": {
-        "text": "triplex",
+        "texts": ["triplex"],
         "explanation": 3,
         "examples": ["Xerox", "Pirex", "Botox", "Duplex", "Durex", "Telex"]
       }
@@ -177,7 +177,7 @@
       "question": "A chuva fez crescer o capim no pasto.",
       "highlight": "capim",
       "correctAnswer": {
-        "text": "capim",
+        "texts": ["capim"],
         "explanation": 4,
         "examples": ["Aimpim", "Pudim", "Gergelim", "Amendoim", "Cetim"]
       }
@@ -186,7 +186,7 @@
       "question": "O batom vermelho a destacava na festa.",
       "highlight": "batom",
       "correctAnswer": {
-        "text": "batom",
+        "texts": ["batom"],
         "explanation": 4,
         "examples": ["Edredom", "Garçom", "Pompom", "Crepom", "Moletom", "Guidom"]
       }
@@ -195,7 +195,7 @@
       "question": "Ana chamou o garçom para fechar a conta.",
       "highlight": "garçom",
       "correctAnswer": {
-        "text": "garçom",
+        "texts": ["garçom"],
         "explanation": 4,
         "examples": ["Edredom", "Batom", "Pompom", "Crepom", "Moletom", "Guidom"]
       }
@@ -204,7 +204,7 @@
       "question": "O cupom de desconto valeu muito a pena.",
       "highlight": "cupom",
       "correctAnswer": {
-        "text": "cupom",
+        "texts": ["cupom"],
         "explanation": 4,
         "examples": ["Edredom", "Batom", "Pompom", "Crepom", "Moletom", "Guidom"]
       }
@@ -213,7 +213,7 @@
       "question": "Parabens pra você nessa data querida.",
       "highlight": "Parabens",
       "correctAnswer": {
-        "text": "parabéns",
+        "texts": ["parabéns"],
         "explanation": 2,
         "examples": ["Porém", "Desdém", "Armazém", "Crepom", "Alguém", "Também", "Neném"]
       }
@@ -222,7 +222,7 @@
       "question": "A faxineira retinou o po dos móveis.",
       "highlight": "po",
       "correctAnswer": {
-        "text": "pó",
+        "texts": ["pó"],
         "explanation": 2,
         "examples": ["Pá", "Jiló", "Baú", "Purê", "Dominó", "Sofá"]
       }
@@ -231,7 +231,7 @@
       "question": "A pandemia provocou um efeito domino na alta de preços.",
       "highlight": "domino",
       "correctAnswer": {
-        "text": "dominó",
+        "texts": ["dominó"],
         "explanation": 2,
         "examples": ["Pá", "Jiló", "Baú", "Purê", "Pó", "Sofá"]
       }
@@ -240,7 +240,7 @@
       "question": "O chapeu caiu do vaqueiro quando ele subiu no touro bravo.",
       "highlight": "chapeu",
       "correctAnswer": {
-        "text": "chapéu",
+        "texts": ["chapéu"],
         "explanation": 2,
         "examples": ["Troféu", "Céu", "Hotéis", "Caubói", "Herói", "Corrói"]
       }
@@ -249,7 +249,7 @@
       "question": "Água pura sem aditivo corroi o carro por dentro.",
       "highlight": "corroi",
       "correctAnswer": {
-        "text": "corrói",
+        "texts": ["corrói"],
         "explanation": 2,
         "examples": ["Troféu", "Céu", "Hotéis", "Caubói", "Herói", "Armazéns"]
       }
@@ -258,7 +258,7 @@
       "question": "Os trofeus ficaram guardados num lugar seguro.",
       "highlight": "trofeus",
       "correctAnswer": {
-        "text": "troféus",
+        "texts": ["troféus"],
         "explanation": 2,
         "examples": ["Troféu", "Céu", "Hotéis", "Caubói", "Herói", "Armazéns"]
       }
@@ -267,7 +267,7 @@
       "question": "Na plantação do meu tio, os girassois acompanham o sol.",
       "highlight": "girassois",
       "correctAnswer": {
-        "text": "girassois",
+        "texts": ["girassois"],
         "explanation": 2,
         "examples": ["Troféu", "Céu", "Hotéis", "Caubói", "Herói", "Armazéns"]
       }
@@ -276,7 +276,7 @@
       "question": "Os papeis do imóvel estavam irregulares.",
       "highlight": "papeis",
       "correctAnswer": {
-        "text": "papéis",
+        "texts": ["papéis"],
         "explanation": 2,
         "examples": ["Troféu", "Céu", "Hotéis", "Caubói", "Herói", "Armazéns"]
       }
@@ -285,7 +285,7 @@
       "question": "Eu não tenho ideia do que você está falando",
       "highlight": "ideia",
       "correctAnswer": {
-        "text": "ideia",
+        "texts": ["ideia"],
         "explanation": 1,
         "examples": ["Jiboia", "Lacraia", "Boia" ,"Humano", "Espera"]
       }
@@ -294,7 +294,7 @@
       "question": "Chorei quando o vi o nosso album de fotos.",
       "highlight": "album",
       "correctAnswer": {
-        "text": "álbum",
+        "texts": ["álbum"],
         "explanation": 0,
         "examples": ["Fórum", "Pódium", "Quórum" ,"Bíceps", "Hífen", "Abdômen"]
       }
@@ -303,7 +303,7 @@
       "question": "Três negros estavam no podium da São Silvestre.",
       "highlight": "podium",
       "correctAnswer": {
-        "text": "pódium",
+        "texts": ["pódium"],
         "explanation": 0,
         "examples": ["Fórum", "Álbum", "Quórum" ,"Bíceps", "Hífen", "Abdômen"]
       }
@@ -312,7 +312,7 @@
       "question": "Um virus atrapalhou a reeleição de Trump.",
       "highlight": "virus",
       "correctAnswer": {
-        "text": "vírus",
+        "texts": ["vírus"],
         "explanation": 0,
         "examples": ["Vênus", "Ônus", "Quórum" ,"Húmus", "Ânus", "Câmpus"]
       }
@@ -321,7 +321,7 @@
       "question": "O juri estava furioso.",
       "highlight": "juri",
       "correctAnswer": {
-        "text": "júri",
+        "texts": ["júri"],
         "explanation": 0,
         "examples": ["Íris", "Bílis", "Oásis" ,"Lápis", "Práxis", "Tênis"]
       }
@@ -330,7 +330,7 @@
       "question": "O tema 'hifen' cai muito em concurso.",
       "highlight": "hifen",
       "correctAnswer": {
-        "text": "hífen",
+        "texts": ["hífen"],
         "explanation": 0,
         "examples": ["Héden", "Pólen", "Abdômen" ,"Gérmen", "Mórmon", "Elétron", "Glúten"]
       }
@@ -339,16 +339,7 @@
       "question": "Na primavera, o polen provoca muita alergia.",
       "highlight": "polen",
       "correctAnswer": {
-        "text": "pólen",
-        "explanation": 0,
-        "examples": ["Héden", "Hífen", "Abdômen" ,"Gérmen", "Mórmon", "Elétron", "Glúten"]
-      }
-    },
-    {
-      "question": "Na primavera, o polen provoca muita alergia.",
-      "highlight": "polen",
-      "correctAnswer": {
-        "text": "pólen",
+        "texts": ["pólen"],
         "explanation": 0,
         "examples": ["Héden", "Hífen", "Abdômen" ,"Gérmen", "Mórmon", "Elétron", "Glúten"]
       }
@@ -357,7 +348,7 @@
       "question": "Será que o céu é um Jardim do Eden?",
       "highlight": "Eden",
       "correctAnswer": {
-        "text": "éden",
+        "texts": ["éden"],
         "explanation": 0,
         "examples": ["Pólen", "Hífen", "Abdômen" ,"Gérmen", "Mórmon", "Elétron", "Glúten"]
       }
@@ -366,7 +357,7 @@
       "question": "Os Mormons estão invadindo o Brasil.",
       "highlight": "Mormons",
       "correctAnswer": {
-        "text": "mórmons",
+        "texts": ["mórmons"],
         "explanation": 0,
         "examples": ["Pólen", "Hífen", "Abdômen" ,"Gérmen", "Mórmon", "Elétron", "Glúten"]
       }
@@ -375,7 +366,7 @@
       "question": "O orfão estava desesperado de medo.",
       "highlight": "orfão",
       "correctAnswer": {
-        "text": "órfão",
+        "texts": ["órfão"],
         "explanation": 0,
         "examples": ["Órgão", "Ímã", "Sótão" ,"Bênção", "Zângão"]
       }
@@ -384,7 +375,7 @@
       "question": "Na academia, Marcos está focando no biceps.",
       "highlight": "biceps",
       "correctAnswer": {
-        "text": "bíceps",
+        "texts": ["bíceps"],
         "explanation": 0,
         "examples": ["Tríceps", "Fórceps"]
       }
@@ -393,7 +384,7 @@
       "question": "A mulher estava tendo paranoia no manicômio.",
       "highlight": "paranoia",
       "correctAnswer": {
-        "text": "paranoia",
+        "texts": ["paranoia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Joia", "Boia"]
       }
@@ -402,7 +393,7 @@
       "question": "O manicomio estava cheio.",
       "highlight": "manicomio",
       "correctAnswer": {
-        "text": "manicômio",
+        "texts": ["manicômio"],
         "explanation": 0,
         "examples": ["Hospício", "Ágeis", "Lírio", "Joquei", "História"]
       }
@@ -411,7 +402,7 @@
       "question": "A boia estava na piscina.",
       "highlight": "boia",
       "correctAnswer": {
-        "text": "boia",
+        "texts": ["boia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Joia", "Alcateia", "Europeia"]
       }
@@ -420,7 +411,7 @@
       "question": "A União Europeia resolveu punir a Rússia.",
       "highlight": "Europeia",
       "correctAnswer": {
-        "text": "europeia",
+        "texts": ["europeia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Joia", "Alcateia", "Boia"]
       }
@@ -429,7 +420,7 @@
       "question": "Eles veem.",
       "highlight": "veem",
       "correctAnswer": {
-        "text": "veem",
+        "texts": ["veem"],
         "explanation": 1,
         "examples": ["Veem", "Creem", "Deem", "Voo", "Perdoo", "Enjoo"]
       }
@@ -438,7 +429,7 @@
       "question": "Eu te perdoo.",
       "highlight": "perdoo",
       "correctAnswer": {
-        "text": "perdoo",
+        "texts": ["perdoo"],
         "explanation": 1,
         "examples": ["Veem", "Creem", "Deem", "Voo", "Magoo", "Enjoo"]
       }
@@ -447,7 +438,7 @@
       "question": "Ele deu de presente para ela uma linda joia.",
       "highlight": "joia",
       "correctAnswer": {
-        "text": "joia",
+        "texts": ["joia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Europeia", "Alcateia", "Boia"]
       }
@@ -456,7 +447,7 @@
       "question": "A plateia estava eufórica com o espetáculo.",
       "highlight": "plateia",
       "correctAnswer": {
-        "text": "plateia",
+        "texts": ["plateia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Europeia", "Alcateia", "Boia"]
       }
@@ -465,7 +456,7 @@
       "question": "Maria fez geleia morango para a sobremesa.",
       "highlight": "geleia",
       "correctAnswer": {
-        "text": "geleia",
+        "texts": ["geleia"],
         "explanation": 1,
         "examples": ["Ideia", "Jiboia", "Heroico", "Europeia", "Alcateia", "Boia"]
       }

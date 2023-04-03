@@ -10,7 +10,7 @@
         "question": "O esposo agradava a mulher.",
         "highlight": "agradava",
         "correctAnswer": {
-          "text": "VTD",
+          "texts": ["VTD"],
           "explanation": 0,
           "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
         }
@@ -19,7 +19,7 @@
         "question": "O assunto não agradou à plateia.",
         "highlight": "agradou",
         "correctAnswer": {
-          "text": "VTI",
+          "texts": ["VTI"],
           "explanation": 0,
           "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
         }

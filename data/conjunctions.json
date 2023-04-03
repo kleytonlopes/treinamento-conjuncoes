@@ -23,7 +23,7 @@
       "question": "Eu trabalho muito, contudo não ganho o suficiente.",
       "highlight": "contudo",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Eu trabalho muito, porém não ganho o suficiente.", "Eu trabalho muito, entretanto não ganho o suficiente", "Eu trabalho muito, no entanto não ganho o suficiente."]
       }
@@ -32,7 +32,7 @@
       "question": "O carro é novo, porém já apresentou alguns problemas.",
       "highlight": "porém",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["O carro é novo, entretanto já apresentou alguns problemas.", "O carro é novo, no entanto já apresentou alguns problemas.", "O carro é novo, mas já apresentou alguns problemas."]
       }
@@ -41,7 +41,7 @@
       "question": "Eu acordei tarde, mas consegui chegar no trabalho a tempo.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Acordei tarde, porém consegui chegar no trabalho a tempo.", "Acordei tarde, no entanto consegui chegar no trabalho a tempo."]
       }
@@ -50,7 +50,7 @@
       "question": "Fui ao supermercado para comprar arroz e feijão.",
       "highlight": "para",
       "correctAnswer": {
-        "text": "final",
+        "texts": ["final"],
         "explanation": 11,
         "examples": ["Fui ao mercado a fim de comprar arroz."]
       }
@@ -59,7 +59,7 @@
       "question": "Você pode estudar em casa ou na biblioteca.",
       "highlight": "ou",
       "correctAnswer": {
-        "text": "alternativa",
+        "texts": ["alternativa"],
         "explanation": 2,
         "examples": ["Você pode estudar não só em casa, mas também na biblioteca.", "Você pode estudar tanto em casa quanto na biblioteca."]
       }
@@ -68,7 +68,7 @@
       "question": "O filme é longo, mas é muito interessante.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["O filme é longo, porém é muito interessante.", "O filme é longo, entretanto é muito interessante."]
       }
@@ -77,7 +77,7 @@
       "question": "Eu não gosto de frio, entretanto adoro a neve.",
       "highlight": "entretanto",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Eu não gosto de frio, porém adoro a neve."]
       }
@@ -86,7 +86,7 @@
       "question": "Não gosto de sopa nem de feijão.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Não gosto de sopa e não gosto de feijão."]
       }
@@ -95,7 +95,7 @@
       "question": "Vou estudar bastante para passar no concurso público.",
       "highlight": "para",
       "correctAnswer": {
-        "text": "final",
+        "texts": ["final"],
         "explanation": 0,
         "examples": ["Vou estudar bastante a fim de passar no concurso público."]
       }
@@ -104,7 +104,7 @@
       "question": "A palestra foi ótima, pois aprendi muitas coisas novas.",
       "highlight": "pois",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 5,
         "examples": ["A palestra foi ótima já que aprendi muitas coisas novas.", 
                       "A palestra foi ótima haja vista que aprendi muitas coisas novas.",
@@ -115,7 +115,7 @@
       "question": "Ele é um bom médico, todavia não sabe lidar com crianças.",
       "highlight": "todavia",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Ele é um bom médico, entretanto não sabe lidar com crianças.", 
                       "Ele é um bom médico, porém não sabe lidar com crianças."]
@@ -125,7 +125,7 @@
       "question": "Não gosto de carne nem de frango.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Não gosto de carne e de frango."]
       }
@@ -134,7 +134,7 @@
       "question": "Eu estou doente, então não posso ir à festa.",
       "highlight": "então",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": ["Estou doente, portanto não posso ir à festa.",
                       "Estou doente, assim não posso ir à festa.",
@@ -146,7 +146,7 @@
       "question": "Eu não gosto de praia, mas adoro piscina.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Não gosto de praia, entretanto adoro piscina.",
                       "Não gosto de praia, porém adoro piscina."]
@@ -156,7 +156,7 @@
       "question": "Ela não come carne, nem ovos, nem leite.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Ela não come carne, ovos e leite."]
       }
@@ -165,7 +165,7 @@
       "question": "Eu acordei cedo para ir à academia, contudo estava muito frio.",
       "highlight": "contudo",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Acordei cedo para ir à academia, porém estava muito frio.",
                       "Acordei cedo para ir à academia, no entanto estava muito frio.",
@@ -176,7 +176,7 @@
       "question": "Comprei tanto pão na padaria quanto queijo no mercado.",
       "highlight": "e",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Comprei não só pão na padaria como também queijo no mercado.",
                     "Comprei pão na padaria e queijo no mercado."]
@@ -186,7 +186,7 @@
       "question": "Não bebo refrigerante, nem suco artificial.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Não bebo refrigerante e suco artificial."]
       }
@@ -195,7 +195,7 @@
       "question": "João foi ao cinema ontem à noite, então não pode ir ao show.",
       "highlight": "então",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": ["João foi ao cinema ontem, portanto não pode ir ao show.",
                     "João foi ao cinema ontem, assim não pode ir ao show.",
@@ -208,7 +208,7 @@
       "question": "Gosto de correr na praia, mas prefiro nadar na piscina.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": ["Gosto de correr na praia, entretanto prefiro nadar na piscina.",
                       "Gosto de correr na praia, porém prefiro nadar na piscina.",
@@ -219,7 +219,7 @@
       "question": "Eu não gosto de acordar cedo, todavia faço isso todos os dias.",
       "highlight": "todavia",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Eu não gosto de acordar cedo, porém faço isso todos os dias.",
                       "Eu não gosto de acordar cedo, contudo faço isso todos os dias.",
@@ -233,7 +233,7 @@
       "question": "Ele tem o dinheiro, logo pode comprar o carro.",
       "highlight": "logo",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": [ "Ele tem o dinheiro, portanto pode comprar o carro.",
                       "Ele tem o dinheiro, por conseguinte pode comprar o carro.",
@@ -246,7 +246,7 @@
       "question": "Comi a pizza toda, portanto não sobrou nenhuma fatia.",
       "highlight": "portanto",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": [ "Comi a pizza toda, logo não sobrou nenhuma fatia.",
                       "Comi a pizza toda, por sonseguinte não sobrou nenhuma fatia.",
@@ -259,7 +259,7 @@
       "question": "Não gosto de café, nem de chá.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Não gosto de café e de chá."]
       }
@@ -268,7 +268,7 @@
       "question": "Eu estudo matemática, mas prefiro biologia.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Eu estudo matemática, só que prefiro biologia.",
                       "Eu estudo matemática, porém prefiro biologia.",
@@ -284,7 +284,7 @@
       "question": "Você pode escolher entre ir à praia ou ao parque.",
       "highlight": "ou",
       "correctAnswer": {
-        "text": "alternativa",
+        "texts": ["alternativa"],
         "explanation": 2,
         "examples": [ "Você pode escolher não só a ir à praia mas também ao parque."]
       }
@@ -293,7 +293,7 @@
       "question": "Eu amo minha mãe, porém brigamos muito.",
       "highlight": "porém",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Eu amo minha mãe, mas brigamos muito.",
                       "Eu amo minha mãe, entretanto brigamos muito.",
@@ -309,7 +309,7 @@
       "question": "Estou estudando para a prova, ainda assim estou um pouco nervoso.",
       "highlight": "ainda assim",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Estou estudando para a prova, porém estou um pouco nervoso.",
                       "Estou estudando para a prova, entretanto estou um pouco nervoso.",
@@ -325,7 +325,7 @@
       "question": "Gosto de música clássica, mas prefiro rock.",
       "highlight": "mas",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Gosto de música clássica, porém prefiro rock.",
                       "Gosto de música clássica, contudo prefiro rock.",
@@ -341,7 +341,7 @@
       "question": "Ele não estuda, nem trabalha.",
       "highlight": "nem",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Ele não só não estuda mas também não trabalha."]
       }
@@ -350,7 +350,7 @@
       "question": "Eu me afasto e me defendo de você.",
       "highlight": "e",
       "correctAnswer": {
-        "text": "aditiva",
+        "texts": ["aditiva"],
         "explanation": 0,
         "examples": ["Eu não só me afasto mas também me defendo de você.",
                       "Eu me afasto bem como me defendo de você."]
@@ -360,7 +360,7 @@
       "question": "Tenho ódio, e morro de amor por ela.",
       "highlight": "e",
       "correctAnswer": {
-        "text": "adversativa",
+        "texts": ["adversativa"],
         "explanation": 1,
         "examples": [ "Tenho ódio, mas morro de amor por ela.",
                       "Tenho ódio, porém morro de amor por ela.",
@@ -376,7 +376,7 @@
       "question": "Muda de vida ou vai me perder.",
       "highlight": "ou",
       "correctAnswer": {
-        "text": "alternativa",
+        "texts": ["alternativa"],
         "explanation": 1,
         "examples": ["Ou muda de vida ou vai me perder."]
       }
@@ -385,7 +385,7 @@
       "question": "Eu estava à toa, e, por isso, resolvi te ligar.",
       "highlight": "por isso",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": [ "Eu estava à toa, e, portanto, resolvi te ligar.",
                       "Eu estava à toa, e, assim, resolvi te ligar.",
@@ -397,7 +397,7 @@
       "question": "Meu filho, vá com Deus, que esse mundo inteiro é seu.",
       "highlight": "que",
       "correctAnswer": {
-        "text": "explicativa",
+        "texts": ["explicativa"],
         "explanation": 4,
         "examples": [ "Meu filho, vá com Deus, porque esse mundo inteiro é seu.",
                       "Meu filho, vá com Deus, pois esse mundo inteiro é seu.",
@@ -408,7 +408,7 @@
       "question": "Mas eu me engano, me desespero, porque te amo, porque te quero.",
       "highlight": "porque",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 5,
         "examples": [ "Mas eu me engano, me desespero, já que te amo, já que te quero.",
                       "Mas eu me engano, me desespero, visto que te amo, visto que te quero.",
@@ -419,7 +419,7 @@
       "question": "Mentes tão bem que parece verdade quando você me falas.",
       "highlight": "tão bem que",
       "correctAnswer": {
-        "text": "consecutiva",
+        "texts": ["consecutiva"],
         "explanation": 6,
         "examples": [ "Você é tão bonita que parece mentira.",
                       "O governo foi tão irresponsável que aconteceram milhares de mortes."]
@@ -429,7 +429,7 @@
       "question": "Mesmo sendo falso o ar, sinto que respiro.",
       "highlight": "Mesmo",
       "correctAnswer": {
-        "text": "concessiva",
+        "texts": ["concessiva"],
         "explanation": 7,
         "examples": [ "Embora sendo falso o ar, sinto que respiro.",
                       "Mesmo sendo falso o ar, sinto que respiro.",
@@ -440,7 +440,7 @@
       "question": "Embora você tenha boas intenções, é impossível acreditar em suas palavras.",
       "highlight": "Embora",
       "correctAnswer": {
-        "text": "concessiva",
+        "texts": ["concessiva"],
         "explanation": 7,
         "examples": [ "Mesmo que você tenha boas intenções, é impossível acreditar em suas palavras.",
                       "Conquanto você tenha boas intenções, é impossível acreditar em suas palavras.",
@@ -453,7 +453,7 @@
       "question": "Por mais que eu me esforce, não consigo seguir uma dieta.",
       "highlight": "Por mais",
       "correctAnswer": {
-        "text": "concessiva",
+        "texts": ["concessiva"],
         "explanation": 7,
         "examples": [ "Embora eu me esforce, não consigo seguir uma dieta.",
                       "Conquanto eu me esforce, não consigo seguir uma dieta.",
@@ -465,7 +465,7 @@
       "question": "Como o rio busca o mar, você vem me procurar.",
       "highlight": "Como",
       "correctAnswer": {
-        "text": "comparativa",
+        "texts": ["comparativa"],
         "explanation": 8,
         "examples": [ "Assim como o rio busca o mar, você vem me procurar.",
                       "Tal qual o rio busca o mar, você vem me procurar."]
@@ -475,7 +475,7 @@
       "question": "Procuro ser estudioso tal qual meu pai.",
       "highlight": "tal qual",
       "correctAnswer": {
-        "text": "comparativa",
+        "texts": ["comparativa"],
         "explanation": 8,
         "examples": [ "Procuro ser estudioso assim como meu pai.",
                       "Procuro ser estudioso como meu pai.",
@@ -486,7 +486,7 @@
       "question": "O enfermeiro foi mais eficiente que o médico.",
       "highlight": "que",
       "correctAnswer": {
-        "text": "comparativa",
+        "texts": ["comparativa"],
         "explanation": 8,
         "examples": [ "Os garotos são mais altos que as garotas."]
       }
@@ -495,7 +495,7 @@
       "question": "Mas não posso imaginar o que vai ser de mim, se eu te perder um dia.",
       "highlight": "se",
       "correctAnswer": {
-        "text": "condicional",
+        "texts": ["condicional"],
         "explanation": 9,
         "examples": [ "Mas não posso imaginar o que vai ser de mim, caso eu te perca um dia."]
       }
@@ -504,7 +504,7 @@
       "question": "Se você demorar, eu não vou te procurar.",
       "highlight": "Se",
       "correctAnswer": {
-        "text": "condicional",
+        "texts": ["condicional"],
         "explanation": 9,
         "examples": [ "Caso você demorar, eu não vou te procurar."]
       }
@@ -513,7 +513,7 @@
       "question": "A vaga está disponível, caso você mude de ideia.",
       "highlight": "caso",
       "correctAnswer": {
-        "text": "condicional",
+        "texts": ["condicional"],
         "explanation": 9,
         "examples": [ "A vaga está disponível, se você mudar de ideia."]
       }
@@ -522,7 +522,7 @@
       "question": "Como vovó já dizia, quem não tem colírio usa óculos escuros.",
       "highlight": "Como",
       "correctAnswer": {
-        "text": "conformativa",
+        "texts": ["conformativa"],
         "explanation": 10,
         "examples": [ "Conforme vovó já dizia, quem não tem colírio usa óculos escuros.",
                       "Segundo a vovó, quem não tem colírio usa óculos escuros."]
@@ -532,7 +532,7 @@
       "question": "Segundo pesquisas, o aquecimento global é um efeito natural.",
       "highlight": "Segundo",
       "correctAnswer": {
-        "text": "conformativa",
+        "texts": ["conformativa"],
         "explanation": 10,
         "examples": [ "Conforme pesquisas, o aquecimento global é um efeito natural."]
       }
@@ -541,7 +541,7 @@
       "question": "Mudanças são necessárias, conforme disse o professor.",
       "highlight": "conforme",
       "correctAnswer": {
-        "text": "conformativa",
+        "texts": ["conformativa"],
         "explanation": 10,
         "examples": [ "Mudanças são necessárias, segundo o professor.",
                       "Mudanças são necessárias, como disse o professor."]
@@ -551,7 +551,7 @@
       "question": "Mas aprendi a fazer amor para te ferir sem sentir nada.",
       "highlight": "para",
       "correctAnswer": {
-        "text": "final",
+        "texts": ["final"],
         "explanation": 11,
         "examples": [ "Mas aprendi a fazer amor a fim de te ferir sem sentir nada."]
       }
@@ -560,7 +560,7 @@
       "question": "A fim de alcançar bons resultados, estudamos todos os dias.",
       "highlight": "A fim de",
       "correctAnswer": {
-        "text": "final",
+        "texts": ["final"],
         "explanation": 11,
         "examples": [ "Para alcançar bons resultados, estudamos todos os dias."]
       }
@@ -569,7 +569,7 @@
       "question": "Os policiais trabalham para que a segurança seja mantida.",
       "highlight": "para que",
       "correctAnswer": {
-        "text": "final",
+        "texts": ["final"],
         "explanation": 11,
         "examples": [ "A fim de que a segurança seja mantida, os policiais trabalham.",
                       "Os policiais trabalham de forma que a segurança seja mantida.",
@@ -580,7 +580,7 @@
       "question": "Quanto mais eu nego, mais você me tem.",
       "highlight": "Quanto mais",
       "correctAnswer": {
-        "text": "proporcional",
+        "texts": ["proporcional"],
         "explanation": 12,
         "examples": [ "Quanto mais fermento, mais fofo ficará o bolo."]
       }
@@ -589,7 +589,7 @@
       "question": "Os homens destroem o planeta à medida que se desenvolvem",
       "highlight": "à medida que",
       "correctAnswer": {
-        "text": "proporcional",
+        "texts": ["proporcional"],
         "explanation": 12,
         "examples": [ "Os homens destroem o planeta ao passo que se desenvolvem"]
       }
@@ -598,7 +598,7 @@
       "question": "Quanto menos você dorme, menos rendem os estudos.",
       "highlight": "Quanto menos",
       "correctAnswer": {
-        "text": "proporcional",
+        "texts": ["proporcional"],
         "explanation": 12,
         "examples": [ "Quanto menor a pobreza, menos as pessoas passam fome."]
       }
@@ -607,7 +607,7 @@
       "question": "Quando digo que deixei de te amar, é porque eu te amo.",
       "highlight": "Quando",
       "correctAnswer": {
-        "text": "temporal",
+        "texts": ["temporal"],
         "explanation": 13,
         "examples": [ "Sempre que digo que deixei de te amar, é porque eu te amo."]
       }
@@ -616,7 +616,7 @@
       "question": "Enquanto os políticos descansam, os brasileiros trabalham arduamente.",
       "highlight": "Enquanto",
       "correctAnswer": {
-        "text": "temporal",
+        "texts": ["temporal"],
         "explanation": 13,
         "examples": [ "Quando os políticos descansam, os brasileiros trabalham arduamente.",
                       "Logo que os políticos descansam, os brasileiros trabalham arduamente.",
@@ -627,7 +627,7 @@
       "question": "Ela está parada desde que chegou.",
       "highlight": "desde que",
       "correctAnswer": {
-        "text": "temporal",
+        "texts": ["temporal"],
         "explanation": 13,
         "examples": [ "A sociedade está assustada desde a pandemia."]
       }
@@ -636,7 +636,7 @@
       "question": "A natureza é importante; deve, pois, ser preservada.",
       "highlight": "pois",
       "correctAnswer": {
-        "text": "conclusiva",
+        "texts": ["conclusiva"],
         "explanation": 3,
         "examples": [ "A natureza é importante; logo deve ser preservada.",
                       "A natureza é importante; portanto deve ser preservada.",
@@ -649,7 +649,7 @@
       "question": "O susto foi tamanho que ele precisou tomar calmante.",
       "highlight": "tamanho que",
       "correctAnswer": {
-        "text": "consecutiva",
+        "texts": ["consecutiva"],
         "explanation": 6,
         "examples": [ "O sucesso foi tamanho que o artista tornou-se milionário em um mês.",
                       "A bagunça foi tamanha que demoraram o dia inteiro para organizar."]
@@ -659,7 +659,7 @@
       "question": "A torcida aclamou porque o gol foi lindo.",
       "highlight": "porque",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 5,
         "examples": [ "A torcida aclamou visto que o gol foi lindo.",
                       "A torcida aclamou haja vista que o gol foi lindo.",
@@ -671,7 +671,7 @@
       "question": "A cidade está vazia, uma vez que muitas pessoas viajaram.",
       "highlight": "uma vez que",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 5,
         "examples": [ "A cidade está vazia, haja vista que muitas pessoas viajaram.",
                       "A cidade está vazia, visto que muitas pessoas viajaram.",
@@ -683,7 +683,7 @@
       "question": "Não pude comparecer à festa porquanto tive de trabalhar até tarde.",
       "highlight": "porquanto",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 4,
         "examples": [ "Não pude comparecer à festa porque tive de trabalhar até tarde.",
                       "Não pude comparecer à festa pois tive de trabalhar até tarde."]
@@ -693,7 +693,7 @@
       "question": "Porquanto não produzissem efeitos, as políticas do governo precisaram ser revistas.",
       "highlight": "Porquanto",
       "correctAnswer": {
-        "text": "causal",
+        "texts": ["causal"],
         "explanation": 4,
         "examples": [ "Visto que não produzissem efeitos, as políticas do governo precisaram ser revistas",
                       "Dado que não produzissem efeitos, as políticas do governo precisaram ser revistas"]
