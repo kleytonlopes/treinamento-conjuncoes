@@ -1,6 +1,6 @@
 {
     "title": "Memorize as regras de Regência Verbal",
-    "command": "Classifique o verbo em destaque em VTD, VTI ou VTDI",
+    "command": "Classifique o verbo em destaque em VTD, VTI e VTDI; ou insira na resposta o Verbo+Preposição correto para a frase.",
     "label": "Insira a resposta:",
     "explanations": [
       {"index": 0, "title": "Agradar", "content": "<b><u>AGRADAR</b></u> no sentido de <b>FAZER CARINHO</b> é <b><u>VTD</u></b>.<br><b><u>AGRADAR</b></u> no sentido de <b>SER AGRADÁVEL</b> é <b><u>VTI</u></b>:"}
@@ -10,7 +10,7 @@
         "question": "O esposo agradava a mulher.",
         "highlight": "agradava",
         "correctAnswer": {
-          "texts": ["VTD"],
+          "texts": ["VTD", "agradar", "agradava", "agrada"],
           "explanation": 0,
           "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
         }
@@ -19,7 +19,7 @@
         "question": "O assunto não agradou à plateia.",
         "highlight": "agradou",
         "correctAnswer": {
-          "texts": ["VTI"],
+          "texts": ["VTI", "agradar a", "agradou a", "agrada a"],
           "explanation": 0,
           "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
         }
