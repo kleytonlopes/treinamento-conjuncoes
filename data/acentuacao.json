@@ -3,8 +3,8 @@
   "command": "Reescreva a palavra em destaque do modo correto",
   "label": "Insira a palavra:",
   "explanations": [
-    {"index": 0, "title": "Paroxítona", "content": "<b><u>Paroxítonas</b></u> terminadas em<b>r, l, n, x, ps, ã(s), ão(s), um(ns), om(ns), us, i(s) e ditongo crescente</b> são <b><u>acentuadas</u></b>."},
-    {"index": 1, "title": "Paroxítona", "content": "<b><u>Paroxítonas</b></u> terminadas em<b>r, l, n, x, ps, ã(s), ão(s), um(ns), om(ns), us, i(s) e ditongo crescente</b> são <b><u>acentuadas</u></b>.As palavras como geleia, boia, voo, heroico e terminadas em <b>a, e, o e em(ens)</b> <u>não são acentuadas</u>:"},    
+    {"index": 0, "title": "Paroxítona", "content": "<b><u>Paroxítonas</b></u> terminadas em <b>r, l, n, x, ps, ã(s), ão(s), um(ns), om(ns), us, i(s) e ditongo crescente</b> são <b><u>acentuadas</u></b>."},
+    {"index": 1, "title": "Paroxítona", "content": "<b><u>Paroxítonas</b></u> terminadas em <b>r, l, n, x, ps, ã(s), ão(s), um(ns), om(ns), us, i(s) e ditongo crescente</b> são <b><u>acentuadas</u></b>. Palavras como geleia, boia, voo, heroico e terminadas em <b>a, e, o e em(ens)</b> <u>não são acentuadas</u>:"},    
     {"index": 2, "title": "Oxítona", "content": "<b><u>Oxítonas</u></b> terminadas em <b>a(s), e(s), o(s), em(ens), oi(s), eu(s) e ei(s)</b> são <b><u>acentuadas</u></b>: "},
     {"index": 3, "title": "Oxítona", "content": "<b><u>Oxítonas</u></b> terminadas em <b>a(s), e(s), o(s), em(ens), oi(s), eu(s) e ei(s)</b> são <b><u>acentuadas</u></b>.<br> As terminadas em <b>i(s), u(s), r, z e  x</b> <u>não são acentuadas</u>: "},
     {"index": 4, "title": "Oxítona", "content": "<b><u>Oxítonas</u></b> terminadas em <b>a(s), e(s), o(s), em(ens), oi(s), eu(s) e ei(s)</b> são <b><u>acentuadas</u></b>.<br> As terminadas em <b>im(ns), um(ns) e om(ns)</b> <u>não são acentuadas</u>: "},
