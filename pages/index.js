@@ -30,6 +30,12 @@ function Home(props) {
           link="acentuacao"
           image="acentuacao.jpeg"
         />
+        <Card
+          title="REGÊNCIA VERBAL"
+          description="Memorização das principais regências verbais"
+          link="regencia_verbal"
+          image="regenciaverbal.jpeg"
+        />
       </div>
 
     </div>
