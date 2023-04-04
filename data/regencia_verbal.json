@@ -1,9 +1,20 @@
 {
     "title": "Memorize as regras de Regência Verbal",
-    "command": "Classifique o verbo em destaque em VTD, VTI e VTDI; ou insira na resposta o Verbo+Preposição correto para a frase.",
+    "command": "Classifique o verbo em destaque em VTD, VTI ,VI ou VTDI; ou insira na resposta o Verbo+Preposição correto para a frase.",
     "label": "Insira a resposta:",
     "explanations": [
-      {"index": 0, "title": "Agradar", "content": "<b><u>AGRADAR</b></u> no sentido de <b>FAZER CARINHO</b> é <b><u>VTD</u></b>.<br><b><u>AGRADAR</b></u> no sentido de <b>SER AGRADÁVEL</b> é <b><u>VTI</u></b>:"}
+      {"index": 0, "title": "Agradar", "content": "<b><u>AGRADAR</b></u> no sentido de <b>FAZER CARINHO</b> é <b><u>VTD</u></b>.<br><b><u>AGRADAR</b></u> no sentido de <b>SER AGRADÁVEL</b> é <b><u>VTI</u></b>:"},
+      {"index": 1, "title": "Ajudar", "content": "<b><u>AJUDAR</b></u> pode ser <b><u>VTD ou VTI</u></b> sem alteração de sentido:"},
+      {"index": 2, "title": "Aspirar", "content": "<b><u>ASPIRAR</b></u> no sentido de <b>SUGAR O AR</b> é <b><u>VTD</u></b>.<br><b><u>ASPIRAR</b></u> no sentido de <b>ALMEJAR,DESEJAR</b> é <b><u>VTI</u></b>:"},
+      {"index": 3, "title": "Assistir", "content": "<b><u>ASSISTIR</b></u> no sentido de <b>VER/PRESENCIAR</b> é <b><u>VTI</u></b>.<br><b><u>ASSISTIR</b></u> no sentido de <b>AJUDAR</b> pode ser <b><u>VTD ou VTI</u></b><br><b><u>ASSISTIR</b></u> no sentido de <b>MORAR</b> é <b><u>VI</u></b>:"},
+      {"index": 4, "title": "Atender", "content": "<b><u>ATENDER</b></u> pode ser <b><u>VTD ou VTI</u></b> sem alteração de sentido:"},
+      {"index": 5, "title": "Chamar", "content": "<b><u>CHAMAR</b></u> no sentido de <b>CONVOCAR</b> é <b><u>VTD</u></b>.<br><b><u>CHAMAR</b></u> no sentido de <b>DAR NOME/APELIDAR</b> pode ser <b><u>VTD ou VTI</u></b>:"},
+      {"index": 6, "title": "Chegar", "content": "<b><u>CHEGAR</b></u> é <b><u>VI ou VTD</u></b>.<br><b><u>CHEGAR</b></u> é <b><u>VTI</u></b> quando acompanhado de <b>locuções locativas</b> e deve-se usar a preposição <u><b>a</b></u>:"},
+      {"index": 7, "title": "Implicar", "content": "<b><u>IMPLICAR</b></u> pode ser <b><u>VTD ou VTI</u></b> no sentido de <b>ACARRETAR/CAUSAR</b>:"},
+      {"index": 8, "title": "Obedecer", "content": "<b><u>OBEDECER</b></u> é sempre <b><u>VTI</u></b>:"},
+      {"index": 9, "title": "Visar", "content": "<b><u>VISAR</b></u> no sentido de <b>MIRAR</b> é <b><u>VTD</u></b>.<br><b><u>VISAR</b></u> no sentido de <b>ALMEJAR/DESEJAR</b> é <b><u>VTI</u></b>:"},
+      {"index": 10, "title": "Proceder", "content": "<b><u>PROCEDER</b></u> no sentido de <b>EXECUTAR/INICIAR</b> é <b><u>VTI</u></b>.<br><b><u>PROCEDER</b></u> no sentido de <b>SER VERDADEIRO/TER PROCEDÊNCIA</b> é <b><u>VI</u></b>:"},
+      {"index": 11, "title": "Lembrar/Esquecer", "content": "<b><u>LEMBRAR/ESQUECER</b></u> sem pronome é <b><u>VTD</u></b>.<br><b><u>LEMBRAR/ESQUECER</b></u> com <b>PRONOME REFLEXIVO</b> é <b><u>VTI</u></b> e utiliza-se a preposição <b><u>de</u></b>:"}
     ],
     "questions": [
       {
@@ -12,7 +23,7 @@
         "correctAnswer": {
           "texts": ["VTD", "agradar", "agradava", "agrada"],
           "explanation": 0,
-          "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
         }
       },
       {
@@ -21,7 +32,511 @@
         "correctAnswer": {
           "texts": ["VTI", "agradar a", "agradou a", "agrada a"],
           "explanation": 0,
-          "examples": ["O esposo agradava a mulher", "O assunto não agradou aos convidados"]
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
+        }
+      },
+      {
+        "question": "O professor não agradou os alunos com a matéria.",
+        "highlight": "agradou",
+        "correctAnswer": {
+          "texts": ["VTI", "agradar aos", "agradou aos", "agrada aos", "agradar a", "agradou a"],
+          "explanation": 0,
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
+        }
+      },
+      {
+        "question": "O senador estava ali para agradar a população.",
+        "highlight": "agradar",
+        "correctAnswer": {
+          "texts": ["VTI", "agradar a", "agradar à", "agrada a", "agrada à"],
+          "explanation": 0,
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
+        }
+      },
+      {
+        "question": "O senador estava ali para agradar à população.",
+        "highlight": "agradar",
+        "correctAnswer": {
+          "texts": ["VTI", "agradar a", "agradar à", "agrada a", "agrada à"],
+          "explanation": 0,
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
+        }
+      },
+      {
+        "question": "A menina agradou o cachorrinho com bastante carinho.",
+        "highlight": "agradou",
+        "correctAnswer": {
+          "texts": ["VTD", "agradar", "agrada", "agradou"],
+          "explanation": 0,
+          "examples": ["O esposo agradava a mulher.", "O assunto não agradou aos convidados."]
+        }
+      },
+      {
+        "question": "O professor ajudou os alunos.",
+        "highlight": "ajudou",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","ajudou a", "ajudou","ajudar","ajudar a"],
+          "explanation": 1,
+          "examples": ["O professor ajudou os alunos.", "O professor ajudou aos alunos"]
+        }
+      },
+      {
+        "question": "Os voluntários ajudaram à população de rua.",
+        "highlight": "ajudaram",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","ajudaram a", "ajudaram","ajudar","ajudar a"],
+          "explanation": 1,
+          "examples": ["O professor ajudou os alunos.", "O professor ajudou aos alunos"]
+        }
+      },
+      {
+        "question": "Os voluntários ajudaram a população de rua.",
+        "highlight": "ajudaram",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","ajudaram a", "ajudaram","ajudar","ajudar a"],
+          "explanation": 1,
+          "examples": ["O professor ajudou os alunos.", "O professor ajudou aos alunos"]
+        }
+      },
+      {
+        "question": "A diarista aspirou o pó da sala.",
+        "highlight": "aspirou",
+        "correctAnswer": {
+          "texts": ["VTD","aspirou", "aspirar"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "Ela aspira a um cargo público."]
+        }
+      },
+      {
+        "question": "A diarista aspirou ao pó da sala.",
+        "highlight": "aspirou",
+        "correctAnswer": {
+          "texts": ["VTD","aspirou", "aspirar"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "Ela aspira a um cargo público."]
+        }
+      },
+      {
+        "question": "Ela aspira a um cargo público.",
+        "highlight": "aspira",
+        "correctAnswer": {
+          "texts": ["VTI","aspira a", "aspirar a"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "Ela aspira a um cargo público."]
+        }
+      },
+      {
+        "question": "Ela aspira um cargo público.",
+        "highlight": "aspira",
+        "correctAnswer": {
+          "texts": ["VTI","aspira a", "aspirar a"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "Ela aspira a um cargo público."]
+        }
+      },
+      {
+        "question": "O soldado aspira a ser um general.",
+        "highlight": "aspira",
+        "correctAnswer": {
+          "texts": ["VTI","aspira a", "aspirar a"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "O soldado aspira a ser um general."]
+        }
+      },
+      {
+        "question": "O soldado aspira ser um general",
+        "highlight": "aspira",
+        "correctAnswer": {
+          "texts": ["VTI","aspira a", "aspirar a"],
+          "explanation": 2,
+          "examples": ["A diarista aspirou o pó da sala.", "O soldado aspira a ser um general."]
+        }
+      },
+      {
+        "question": "Eu assisti ao maravilhoso clássico do cinema.",
+        "highlight": "assisti",
+        "correctAnswer": {
+          "texts": ["VTI","assisti a", "assisti ao","assistir a", "assistir ao"],
+          "explanation": 3,
+          "examples": ["Eu assisti ao maravilhoso espetáculo.", "O médico assiste os(aos) enfermos.", "A família Piquet assiste em Brasília."]
+        }
+      },
+      {
+        "question": "Eu assisti o maravilhoso clássico do cinema.",
+        "highlight": "assisti",
+        "correctAnswer": {
+          "texts": ["VTI","assisti a", "assisti ao","assistir a", "assistir ao"],
+          "explanation": 3,
+          "examples": ["Eu assisti ao maravilhoso espetáculo.", "O médico assiste os(aos) enfermos.", "A família Piquet assiste em Brasília."]
+        }
+      },
+      {
+        "question": "O Presidente da República assiste em Brasília.",
+        "highlight": "assiste",
+        "correctAnswer": {
+          "texts": ["VI","assiste", "assistir"],
+          "explanation": 3,
+          "examples": ["Eu assisti ao maravilhoso espetáculo.", "O médico assiste os(aos) enfermos.", "O Presidente da República assiste em Brasília."]
+        }
+      },
+      {
+        "question": "O médico assiste aos pacientes.",
+        "highlight": "assiste",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI","VTD","VTI","assiste", "assistir","assistir a", "assiste a","assiste aos","assiste os"],
+          "explanation": 3,
+          "examples": ["Eu assisti ao maravilhoso espetáculo.", "O médico assiste os(aos) enfermos.", "O Presidente da República assiste em Brasília."]
+        }
+      },
+      {
+        "question": "O médico assiste os pacientes.",
+        "highlight": "assiste",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI","VTD","VTI","assiste", "assistir","assistir a", "assiste a","assiste aos","assiste os"],
+          "explanation": 3,
+          "examples": ["Eu assisti ao maravilhoso espetáculo.", "O médico assiste os(aos) enfermos.", "O Presidente da República assiste em Brasília."]
+        }
+      },
+      {
+        "question": "O juiz atendeu a todos os advogados.",
+        "highlight": "atendeu",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","atendeu a", "atendeu","atender","atender a"],
+          "explanation": 4,
+          "examples": ["O juiz atendeu a todos os advogados.", "O juiz atendeu todos aos advogados."]
+        }
+      },
+      {
+        "question": "O juiz atendeu todos os advogados.",
+        "highlight": "atendeu",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","atendeu a", "atendeu","atender","atender a"],
+          "explanation": 4,
+          "examples": ["O juiz atendeu a todos os advogados.", "O juiz atendeu todos aos advogados."]
+        }
+      },
+      {
+        "question": "Ela atendeu o telefone.",
+        "highlight": "atendeu",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","atendeu a", "atendeu","atender","atender a"],
+          "explanation": 4,
+          "examples": ["O juiz atendeu a todos os advogados.", "O juiz atendeu todos aos advogados."]
+        }
+      },
+      {
+        "question": "Ela atendeu ao telefone.",
+        "highlight": "atendeu",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","atendeu a", "atendeu","atender","atender a"],
+          "explanation": 4,
+          "examples": ["O juiz atendeu a todos os advogados.", "O juiz atendeu todos aos advogados."]
+        }
+      },
+      {
+        "question": "A mãe chamou o filho para almoçar.",
+        "highlight": "chamou",
+        "correctAnswer": {
+          "texts": ["VTD","chamou","chamar"],
+          "explanation": 5,
+          "examples": ["A mãe chamou o filho para almoçar.", "Eles chamava a(à) mãe de heroína."]
+        }
+      },
+      {
+        "question": "A mãe chamou ao filho para almoçar.",
+        "highlight": "chamou",
+        "correctAnswer": {
+          "texts": ["VTD","chamou","chamar"],
+          "explanation": 5,
+          "examples": ["A mãe chamou o filho para almoçar.", "Eles chamavam a(à) mãe de heroína."]
+        }
+      },
+      {
+        "question": "Eles chamavam a mãe de heroína.",
+        "highlight": "chamava",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","chamava a", "chamava","chamar","chamar a"],
+          "explanation": 5,
+          "examples": ["A mãe chamou o filho para almoçar.", "Eles chamavam a(à) mãe de heroína."]
+        }
+      },
+      {
+        "question": "Eles chamavam à mãe de heroína.",
+        "highlight": "chamava",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","chamava a", "chamava","chamar","chamar a"],
+          "explanation": 5,
+          "examples": ["A mãe chamou o filho para almoçar.", "Eles chamavam a(à) mãe de heroína."]
+        }
+      },
+      {
+        "question": "Eles chamavam à filha de princesinha.",
+        "highlight": "chamavam",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","chamavam a", "chamavam","chamar","chamar a"],
+          "explanation": 5,
+          "examples": ["A mãe chamou o filho para almoçar.", "Eles chamavam a(à) filha de princesinha."]
+        }
+      },
+      {
+        "question": "Chegaremos cedo à escola.",
+        "highlight": "Chegaremos",
+        "correctAnswer": {
+          "texts": ["VTI", "chegaremos a", "chegar a"],
+          "explanation": 6,
+          "examples": ["Já cheguei a casa", "Chegaremos cedo à escola.", "Ainda não cheguei ao trabalho", "Você não chega aos meus pés"]
+        }
+      },
+      {
+        "question": "Já cheguei em casa.",
+        "highlight": "cheguei",
+        "correctAnswer": {
+          "texts": ["VTI", "cheguei a", "chegar a", "a"],
+          "explanation": 6,
+          "examples": ["Já cheguei a casa", "Chegaremos cedo à escola.", "Ainda não cheguei ao trabalho", "Você não chega aos meus pés"]
+        }
+      },
+      {
+        "question": "Ainda não cheguei no trabalho.",
+        "highlight": "cheguei",
+        "correctAnswer": {
+          "texts": ["VTI", "cheguei a", "chegar a", "a"],
+          "explanation": 6,
+          "examples": ["Já cheguei a casa", "Chegaremos cedo à escola.", "Ainda não cheguei ao trabalho", "Você não chega aos meus pés"]
+        }
+      },
+      {
+        "question": "O trem chegou no fim da linha.",
+        "highlight": "cheguei",
+        "correctAnswer": {
+          "texts": ["VTI", "chegou a","chegou ao", "chegar a","chegar ao", "a"],
+          "explanation": 6,
+          "examples": ["Já cheguei a casa", "Chegaremos cedo à escola.", "Ainda não cheguei ao trabalho", "Você não chega aos meus pés"]
+        }
+      },
+      {
+        "question": "Já cheguei!",
+        "highlight": "cheguei",
+        "correctAnswer": {
+          "texts": ["VI", "cheguei"],
+          "explanation": 6,
+          "examples": ["As férias já chegaram!"]
+        }
+      },
+      {
+        "question": "Chega o teu banco para perto do meu",
+        "highlight": "cheguei",
+        "correctAnswer": {
+          "texts": ["VTDI", "chega", "chegar"],
+          "explanation": 6,
+          "examples": ["As férias já chegaram!", "Chega as tuas mãos para lá!", "Você chegou cedo hoje!"]
+        }
+      },
+      {
+        "question": "O seu comportamento implica demissão.",
+        "highlight": "implica",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","implica em", "implica","implicar","implicar em"],
+          "explanation": 7,
+          "examples": ["O seu comportamento implica (em) demissão."]
+        }
+      },
+      {
+        "question": "O seu comportamento implica em demissão.",
+        "highlight": "implica",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","implica em", "implica","implicar","implicar em"],
+          "explanation": 7,
+          "examples": ["O seu comportamento implica (em) demissão."]
+        }
+      },
+      {
+        "question": "Exceder o limite de velocidade nas rodovias federais implicará em multas pesadas para o condutor do veículo.",
+        "highlight": "implicará",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","implicará em", "implica","implicar","implicar em"],
+          "explanation": 7,
+          "examples": ["O seu comportamento implica (em) demissão."]
+        }
+      },
+      {
+        "question": "Exceder o limite de velocidade nas rodovias federais implicará multas pesadas para o condutor do veículo.",
+        "highlight": "implicará",
+        "correctAnswer": {
+          "texts": ["VTD ou VTI", "VTI", "VTD","implicará em", "implica","implicar","implicar em"],
+          "explanation": 7,
+          "examples": ["O seu comportamento implica (em) demissão."]
+        }
+      },
+      {
+        "question": "Eles não obedecem ao regulamento.",
+        "highlight": "obedecem",
+        "correctAnswer": {
+          "texts": ["VTI", "obedecem a", "obedecer a", "obedece a"],
+          "explanation": 8,
+          "examples": ["O filho não obedece à mãe.", "O aluno não obedece ao diretor da escola."]
+        }
+      },
+      {
+        "question": "Eles não obedecem o regulamento.",
+        "highlight": "obedecem",
+        "correctAnswer": {
+          "texts": ["VTI", "obedecem a", "obedecer a", "obedece a"],
+          "explanation": 8,
+          "examples": ["O filho não obedece à mãe.", "O aluno não obedece ao diretor da escola."]
+        }
+      },
+      {
+        "question": "O filho não obedece a mãe.",
+        "highlight": "obedece",
+        "correctAnswer": {
+          "texts": ["VTI", "obedece a", "obedecer a"],
+          "explanation": 8,
+          "examples": ["O filho não obedece à mãe.", "O aluno não obedece ao diretor da escola.", "Eles não obedecem ao regulamento."]
+        }
+      },
+      {
+        "question": "O filho não obedece à mãe.",
+        "highlight": "obedece",
+        "correctAnswer": {
+          "texts": ["VTI", "obedece a", "obedecer a"],
+          "explanation": 8,
+          "examples": ["O filho não obedece à mãe.", "O aluno não obedece ao diretor da escola.", "Eles não obedecem ao regulamento."]
+        }
+      },
+      {
+        "question": "O atirador visou o alvo.",
+        "highlight": "visou",
+        "correctAnswer": {
+          "texts": ["VTD", "visar", "visou", "visa"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "O atirador visou ao meio do alvo.",
+        "highlight": "visou",
+        "correctAnswer": {
+          "texts": ["VTD", "visar", "visou", "visou o"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "Ele visa a um novo emprego.",
+        "highlight": "visa",
+        "correctAnswer": {
+          "texts": ["VTI", "visar a", "visou a"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "Ele visa um novo emprego.",
+        "highlight": "visa",
+        "correctAnswer": {
+          "texts": ["VTI", "visar a", "visou a"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "O soldado visa ser um general.",
+        "highlight": "visa",
+        "correctAnswer": {
+          "texts": ["VTI", "visar a", "visou a"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "O soldado visa a ser um general.",
+        "highlight": "visa",
+        "correctAnswer": {
+          "texts": ["VTI", "visar a", "visou a"],
+          "explanation": 9,
+          "examples": ["O atirador visou o alvo.", "Ele visa a um novo emprego."]
+        }
+      },
+      {
+        "question": "O ator procedeu à apresentação.",
+        "highlight": "procedeu",
+        "correctAnswer": {
+          "texts": ["VTI", "procedeu a", "proceder a"],
+          "explanation": 10,
+          "examples": ["O ator procedeu à apresentação.", "A fala do empresário não procede."]
+        }
+      },
+      {
+        "question": "O ator procedeu a apresentação.",
+        "highlight": "procedeu",
+        "correctAnswer": {
+          "texts": ["VTI", "procedeu a", "proceder a"],
+          "explanation": 10,
+          "examples": ["O ator procedeu à apresentação.", "A fala do empresário não procede."]
+        }
+      },
+      {
+        "question": "A fala do empresário não procede.",
+        "highlight": "procede",
+        "correctAnswer": {
+          "texts": ["VI", "procede"],
+          "explanation": 10,
+          "examples": ["O ator procedeu à apresentação.", "A fala do empresário não procede."]
+        }
+      },
+      {
+        "question": "Meu pai lembra o seu nome.",
+        "highlight": "lembra",
+        "correctAnswer": {
+          "texts": ["VTD", "lembra", "lembrar"],
+          "explanation": 11,
+          "examples": ["Meu pai lembra o seu nome.", "Meu pai se lembra do seu nome"]
+        }
+      },
+      {
+        "question": "Meu pai lembra do seu nome.",
+        "highlight": "lembra",
+        "correctAnswer": {
+          "texts": ["VTD", "lembra", "lembrar"],
+          "explanation": 11,
+          "examples": ["Meu pai lembra o seu nome.", "Meu pai se lembra do seu nome"]
+        }
+      },
+      {
+        "question": "Meu pai se lembra do seu nome.",
+        "highlight": "lembra",
+        "correctAnswer": {
+          "texts": ["VTI", "lembra de", "lembrar de", "lembrar do", "lembra do"],
+          "explanation": 11,
+          "examples": ["Meu pai lembra o seu nome.", "Meu pai se lembra do seu nome"]
+        }
+      },
+      {
+        "question": "Eu esqueci a sua blusa.",
+        "highlight": "esqueci",
+        "correctAnswer": {
+          "texts": ["VTD", "esqueci", "esquecer"],
+          "explanation": 11,
+          "examples": ["Eu esqueci a sua blusa.", "Eu esqueci-me da sua blusa."]
+        }
+      },
+      {
+        "question": "Eu esqueci da sua blusa.",
+        "highlight": "esqueci",
+        "correctAnswer": {
+          "texts": ["VTD", "esqueci", "esquecer"],
+          "explanation": 11,
+          "examples": ["Eu esqueci a sua blusa.", "Eu esqueci-me da sua blusa."]
+        }
+      },
+      {
+        "question": "Eu esqueci-me da sua blusa.",
+        "highlight": "esqueci",
+        "correctAnswer": {
+          "texts": ["VTI", "esqueci-me da", "esquecer-me da"],
+          "explanation": 11,
+          "examples": ["Eu esqueci a sua blusa.", "Eu esqueci-me da sua blusa."]
         }
       }
     ]
