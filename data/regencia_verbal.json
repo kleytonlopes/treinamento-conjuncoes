@@ -325,7 +325,7 @@
       },
       {
         "question": "Chega o teu banco para perto do meu",
-        "highlight": "cheguei",
+        "highlight": "Chega",
         "correctAnswer": {
           "texts": ["VTDI", "chega", "chegar"],
           "explanation": 6,
