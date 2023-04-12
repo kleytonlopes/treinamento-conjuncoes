@@ -1,0 +1,88 @@
+{
+  "title": "Memorize os conceitos relacionados às Formas Normais de Banco de Dados",
+  "command": "Escreva o conceito que está relacionado à frase.",
+  "label": "Insira a palavra:",
+  "explanations": [
+    {"index": 0, "title": "Dependência Funcional", "content": "Uma <b><u>dependência funcional</b></u> é um relacionamento entre dois ou mais atributos, <br>de forma que o valor de um atributo <br>identifica</br> o valor do outro atributo,<br> ou seja, um atributo está relacionado a outro."},
+    {"index": 1, "title": "Dependência Parcial", "content": "Uma <b><u>Dependência funcional parcial</b></u> ocorre quando os atributos não chave (não identificadores)<br> não dependam de toda a chave primária quando ela for <br>composta</br>."},
+    {"index": 2, "title": "Dependência Transitiva", "content": "Quando um ou mais campos de uma entidade<br> não são dependentes diretamente da chave primária, ou de parte dela, mas sim dependente de outro campo<br> da tabela (campo este que não a Chave Primária), temos <br>uma <b>dependência funcional transitiva</b>."},
+    {"index": 3, "title": "Atributo Multivalorado", "content": "<b><u>Atributos multivalorados<b><u>são atributos<br> que podem conter <b>mais de um valor</b> para um mesmo registro.<br> Nesta tabela, por exemplo, temos mais de um número de telefone<br> para um mesmo funcionário."},
+    {"index": 4, "title": "Atributo Composto", "content": "<b><u>Atributos compostos<b><u> são atributos que poderiam ser subdivididos em vários atributos."},
+    {"index": 5, "title": "Formas normais", "content": "<b><u>1FN</b></u>: visa eliminar atributos multivalorados e atributos compostos;<br><b><u>2FN</b></u>: visa eliminar a dependência funcional parcial;<br><b><u>3FN</b></u>: visa eliminar a dependência funcional transitiva;"}
+
+  ],
+  "questions": [
+    {
+      "question": "É um relacionamento entre dois ou mais atributos, de forma que o valor de um atributo identifica o valor do outro atributo.",
+      "highlight": "relacionamento",
+      "correctAnswer": {
+        "texts": ["Dependência Funcional", "Dependencia Funcional"],
+        "explanation": 0,
+        "examples": ["CPF de uma pessoa -> NOME"]
+      }
+    },
+     {
+      "question": "Ocorre quando os atributos não chave (não identificadores) não dependam de toda a chave primária quando ela for composta.",
+      "highlight": "não dependam de toda a chave primária quando ela for composta",
+      "correctAnswer": {
+        "texts": ["Dependência Parcial", "Dependencia Parcial"],
+        "explanation": 1,
+        "examples": ["Matrícula+CódigoDisciplina -> NomeDisciplina"]
+      }
+    },
+     {
+      "question": "Quando um ou mais campos de uma entidade não são dependentes diretamente da chave primária, ou de parte dela, mas sim dependente de outro campo da tabela (campo este que não a Chave Primária)",
+      "highlight": "não são dependentes diretamente da chave primária",
+      "correctAnswer": {
+        "texts": ["Dependência Transitiva", "Dependencia Transitiva"],
+        "explanation": 2,
+        "examples": ["IdFuncionario -> IdCargo -> NomeCargo"]
+      }
+    },
+     {
+      "question": "São atributos que podem conter mais de um valor para um mesmo registro.",
+      "highlight": "mais de um valor",
+      "correctAnswer": {
+        "texts": ["Multivalorados", "Atributos Multivalorados"],
+        "explanation": 3,
+        "examples": ["IdUsuario -> TelefonesArray"]
+      }
+    },
+     {
+      "question": "São atributos que poderiam ser subdivididos em vários atributos.",
+      "highlight": "subdivididos",
+      "correctAnswer": {
+        "texts": ["Compostos", "Atributos Compostos"],
+        "explanation": 4,
+        "examples": ["IdEndereco -> EnderecoCompleto"]
+      }
+    },
+     {
+      "question": "Visa eliminar atributos multivalorados e atributos compostos.",
+      "highlight": "multivalorados",
+      "correctAnswer": {
+        "texts": ["1fn", "Primeira Forma Normal"],
+        "explanation": 5,
+        "examples": []
+      }
+    },
+     {
+      "question": "Visa eliminar a Dependência Parcial.",
+      "highlight": "Dependência Parcial",
+      "correctAnswer": {
+        "texts": ["2fn", "Segunda Forma Normal"],
+        "explanation": 5,
+        "examples": []
+      }
+    },
+     {
+      "question": "Visa eliminar a Dependência Transiiva.",
+      "highlight": "Dependência Transiiva",
+      "correctAnswer": {
+        "texts": ["3fn", "Terceira Forma Normal"],
+        "explanation": 5,
+        "examples": []
+      }
+    }
+  ]
+}
