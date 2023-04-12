@@ -36,6 +36,12 @@ function Home(props) {
           link="regencia_verbal"
           image="regenciaverbal.jpeg"
         />
+        <Card
+          title="FORMAS NORMAIS"
+          description="Memorização dos conceitos relacionados a Formas Normais."
+          link="formas_normais"
+          image="formasnormais.png"
+        />
       </div>
 
     </div>

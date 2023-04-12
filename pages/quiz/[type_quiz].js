@@ -26,12 +26,13 @@ export async function getStaticProps(context) {
   switch (type_quiz) {
     case 'conjuncoes':
       currentJson = require('../../data/conjunctions.json');
-      
       break;
     case 'regencia_verbal':
       currentJson = require('../../data/regencia_verbal.json');
-      
       break;
+    case 'formas_normais':
+        currentJson = require('../../data/formas_normais.json');
+        break;
     default:
       currentJson = require('../../data/acentuacao.json');
       break;
@@ -53,7 +54,8 @@ export async function getStaticPaths() {
   const paths = [
     {params: { type_quiz: 'conjuncoes'}},
     {params: { type_quiz: 'acentuacao'}},
-    {params: { type_quiz: 'regencia_verbal'}}
+    {params: { type_quiz: 'regencia_verbal'}},
+    {params: { type_quiz: 'formas_normais'}}
   ];
   return { paths, fallback: false }
 }
