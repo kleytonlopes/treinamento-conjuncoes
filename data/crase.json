@@ -1,0 +1,46 @@
+{
+  "title": "Memorize as regras de utilização da Crase",
+  "command": "Responda escrevendo 'Sem' ou 'Com' crase",
+  "label": "Insira a resposta:",
+  "explanations": [
+    {"index": 0, "title": "Horas Marcadas", "content": "Deve ser usada antes da indicação de um horário ou de <u><b>horas marcadas</b></u>.<br>Não deve ser usada quando as horas estiverem acompanhadas de <u><b>após, desde, entre, para<b><\u>."},
+  ],
+  "questions": [
+    {
+      "question": "A sua consulta é a uma da tarde.",
+      "highlight": "a",
+      "correctAnswer": {
+        "texts": ["com","com crase","à"],
+        "explanation": 0,
+        "examples": ["Sairei de casa à meia-noite.", "O jogo do João é agora às 18h.", "Não consigo te encontrar às 20h.", ]
+      }
+    },
+    {
+      "question": "O jogo do João é agora as 18h.",
+      "highlight": "a",
+      "correctAnswer": {
+        "texts": ["com","com crase","à"],
+        "explanation": 0,
+        "examples": ["Sairei de casa à meia-noite.", "A sua consulta é à uma da tarde.", "Não consigo te encontrar às 20h.", ]
+      }
+    },
+    {
+      "question": "Estive esperando por ele desde as nove da manhã.",
+      "highlight": "as",
+      "correctAnswer": {
+        "texts": ["sem","sem crase","a"],
+        "explanation": 0,
+        "examples": ["Ligue após as 15h30.", "O doutor somente pode atender entre as 9h e as 10h.", "A marcação foi feita para as 13h.", ]
+      }
+    },
+    {
+      "question": "A marcação foi feita para as 13h.",
+      "highlight": "as",
+      "correctAnswer": {
+        "texts": ["sem","sem crase","a"],
+        "explanation": 0,
+        "examples": ["Ligue após as 15h30.", "O doutor somente pode atender entre as 9h e as 10h.", "Estive esperando por ele desde as nove da manhã.", ]
+      }
+    }
+  ]
+}
