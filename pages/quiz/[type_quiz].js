@@ -33,6 +33,9 @@ export async function getStaticProps(context) {
     case 'formas_normais':
         currentJson = require('../../data/formas_normais.json');
         break;
+    case 'owasp_top10':
+      currentJson = require('../../data/owasp_top10.json');
+      break;
     default:
       currentJson = require('../../data/acentuacao.json');
       break;
@@ -55,7 +58,8 @@ export async function getStaticPaths() {
     {params: { type_quiz: 'conjuncoes'}},
     {params: { type_quiz: 'acentuacao'}},
     {params: { type_quiz: 'regencia_verbal'}},
-    {params: { type_quiz: 'formas_normais'}}
+    {params: { type_quiz: 'formas_normais'}},
+    {params: { type_quiz: 'owasp_top10'}}
   ];
   return { paths, fallback: false }
 }

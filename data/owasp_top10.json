@@ -1,0 +1,28 @@
+{
+  "title": "Memorize as vulnerabilidades e prevenções do OWASP Top 10",
+  "command": "Responda com uma das opções: Quebra de Controle de Acesso, Falhas Criptográficas, Injeção, Design Inseguro, Configuração Incorreta de Segurança, Componentes Vulneráveis e Desatualizados, -Falhas de identificação e autenticação, Falhas de Software e Integridade de Dados, Falhas de registro e monitoramento de segurança, Falsificação de Solicitação do Lado do Servidor (SSRF)",
+  "label": "Insira a resposta:",
+  "explanations": [
+    {"index": 0, "title": "A01 Quebra de Controle de Acesso", "content": "Impõe a política de modo que os usuários não possam agir fora de suas permissões pretendidas."}
+  ],
+  "questions": [
+    {
+      "question": "Prevenção: Exceto para recursos públicos, negar por padrão.",
+      "highlight": "Quebra de Controle de Acesso",
+      "correctAnswer": {
+        "texts": ["A01","Quebra de Controle de Acesso","1", "Controle de Acesso"],
+        "explanation": 0,
+        "examples": ["Permitir o acesso de uma pessoa apenas para determinados recursos, funções ou usuários."]
+      }
+    },
+    {
+      "question": "Vuln.: Permitir a visualização ou edição da conta de outrem, mediante a disponibilização do seu identificador único.",
+      "highlight": "Quebra de Controle de Acesso",
+      "correctAnswer": {
+        "texts": ["A01","Quebra de Controle de Acesso","1", "Controle de Acesso"],
+        "explanation": 0,
+        "examples": ["Utilizar referências diretas não seguras a objetos, como um ID."]
+      }
+    }
+  ]
+}

@@ -42,6 +42,12 @@ function Home(props) {
           link="formas_normais"
           image="formasnormais.png"
         />
+        <Card
+          title="OWASP Top 10"
+          description="Memorização das causas e das prevenções."
+          link="owasp_top10"
+          image="top10.jpeg"
+        />
       </div>
 
     </div>
